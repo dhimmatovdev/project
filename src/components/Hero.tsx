@@ -70,10 +70,6 @@ const Hero: React.FC = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Badge */}
-          <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-orange-500/90 to-red-500/90 backdrop-blur-md rounded-2xl px-6 py-3 mb-12 shadow-xl">
-            <Star className="w-4 h-4 text-yellow-300" />
-            <span className="text-white text-sm font-medium">{t('scholarshipOpportunities')}</span>
-          </div>
 
           {/* Main Title */}
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
