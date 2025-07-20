@@ -1,8 +1,7 @@
 import React from 'react';
 import { MessageCircle, Instagram } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
-import ment1 from '../../public/asomiddin.jpg';
-import ment2 from '../../public/avazbek.jpg';
+
 const Mentors: React.FC = () => {
   const { t } = useLanguage();
 
@@ -12,7 +11,7 @@ const Mentors: React.FC = () => {
       name: 'Asomiddin Akhadov',
       role: 'CEO',
       additionalRole: 'Visa Consultant',
-      image: ment1,
+      image: '/asomiddin.jpg',
       telegram: 'https://t.me/akhadooff',
       instagram: 'https://instagram.com/akhadooff'
     },
@@ -21,7 +20,7 @@ const Mentors: React.FC = () => {
       name: 'Avazbek Ismoilov',
       role: 'Head Mentor',
       additionalRole: 'Student Success Manager',
-      image: ment2,
+      image: '/avazbek.jpg',
       telegram: 'https://t.me/avazbekus',
       instagram: 'https://instagram.com/avazbekus'
     }
@@ -32,10 +31,10 @@ const Mentors: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Our Team
+            {t('mentorsTitle')}
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Tajribali professional mentorlar sizni muvaffaqiyatga olib boradi
+            {t('currentLanguage') === 'en' ? 'Experienced professional mentors will lead you to success' : 'Tajribali professional mentorlar sizni muvaffaqiyatga olib boradi'}
           </p>
         </div>
 
@@ -49,7 +48,8 @@ const Mentors: React.FC = () => {
                     <img
                       src={mentor.image}
                       alt={mentor.name}
-                      className="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover object-center transition-transform duration-300 group-hover:scale-105"
+                      className="w-full h-64 object-cover object-center transition-transform duration-300 group-hover:scale-105"
+                      style={{ aspectRatio: '1/1' }}
                     />
                   </div>
                 </div>

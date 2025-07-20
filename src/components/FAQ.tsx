@@ -65,7 +65,7 @@ const FAQ: React.FC = () => {
             {t('faqTitle')}
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Eng ko\'p so\'raladigan savollar va ularning javoblari
+            {t('faqDescription')}
           </p>
         </div>
 

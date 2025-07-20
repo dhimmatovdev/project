@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
     {
       icon: <MessageCircle className="w-6 h-6" />,
       title: 'Telegram Bot',
-      description: 'Avtomatik maslahat va ariza berish',
+      description: t('currentLanguage') === 'en' ? 'Automatic consultation and application' : 'Avtomatik maslahat va ariza berish',
       value: '@HumoAgencyAdmission_bot',
       link: 'https://t.me/HumoAgencyAdmission_bot',
       color: 'bg-blue-500'
@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
     {
       icon: <MessageCircle className="w-6 h-6" />,
       title: 'Support',
-      description: 'Tezkor yordam va maslahat',
+      description: t('currentLanguage') === 'en' ? 'Quick help and consultation' : 'Tezkor yordam va maslahat',
       value: '@humoagency_help',
       link: 'https://t.me/humoagency_help',
       color: 'bg-green-500'
@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
     {
       icon: <Instagram className="w-6 h-6" />,
       title: 'Instagram',
-      description: 'Yangiliklar va muvaffaqiyat hikoyalari',
+      description: t('currentLanguage') === 'en' ? 'News and success stories' : 'Yangiliklar va muvaffaqiyat hikoyalari',
       value: '@humo_agency',
       link: 'https://www.instagram.com/humo_agency',
       color: 'bg-pink-500'
@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
     {
       icon: <Facebook className="w-6 h-6" />,
       title: 'Facebook',
-      description: 'Jamiyat va tadbirlar',
+      description: t('currentLanguage') === 'en' ? 'Community and events' : 'Jamiyat va tadbirlar',
       value: 'Humo Agency',
       link: 'https://www.facebook.com/share/1Aarp16e1E',
       color: 'bg-blue-600'
@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
             {t('contactTitle')}
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            AQSh universitetlariga qabul qilish jarayonini bugun boshlang
+            {t('contactDescription')}
           </p>
         </div>
 
@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
             {/* Contact Methods */}
             <div className="space-y-8">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">
-                Biz Bilan Bog'laning
+                {t('currentLanguage') === 'en' ? 'Contact Us' : 'Biz Bilan Bog\'laning'}
               </h3>
               
               <div className="space-y-6">
@@ -91,13 +91,13 @@ const Contact: React.FC = () => {
               {/* Office Info */}
               <div className="mt-8 p-6 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-3xl shadow-xl">
                 <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                  Ofis Ma'lumotlari
+                  {t('currentLanguage') === 'en' ? 'Office Information' : 'Ofis Ma\'lumotlari'}
                 </h4>
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <MapPin className="w-5 h-5 text-orange-500" />
                     <span className="text-gray-700 dark:text-gray-300">
-                      Yunusobod tumani, Amir Temur shoh ko'chasi 108-uy, Toshkent, O'zbekiston
+                      {t('currentLanguage') === 'en' ? 'Yunusobod District, Amir Temur Street 108, Tashkent, Uzbekistan' : 'Yunusobod tumani, Amir Temur shoh ko\'chasi 108-uy, Toshkent, O\'zbekiston'}
                     </span>
                   </div>
                   <div className="flex items-center space-x-3">
@@ -119,12 +119,12 @@ const Contact: React.FC = () => {
               <div className="bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-3xl shadow-xl overflow-hidden">
                 <div className="p-6 border-b border-gray-200 dark:border-gray-700">
                   <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
-                    Bizning Manzilimiz
+                    {t('currentLanguage') === 'en' ? 'Our Address' : 'Bizning Manzilimiz'}
                   </h4>
                   <div className="flex items-center space-x-3">
                     <MapPin className="w-5 h-5 text-orange-500" />
                     <span className="text-gray-700 dark:text-gray-300">
-                      Yunusobod tumani, Amir Temur shoh ko'chasi 108-uy, Toshkent, O'zbekiston
+                      {t('currentLanguage') === 'en' ? 'Yunusobod District, Amir Temur Street 108, Tashkent, Uzbekistan' : 'Yunusobod tumani, Amir Temur shoh ko\'chasi 108-uy, Toshkent, O\'zbekiston'}
                     </span>
                   </div>
                 </div>
@@ -160,7 +160,7 @@ const Contact: React.FC = () => {
             <div>
               <div className="bg-gradient-to-br from-orange-400 via-orange-500 to-red-500 rounded-3xl p-8 text-white shadow-2xl">
                 <h3 className="text-2xl font-bold mb-6">
-                  Bugun Boshlang!
+                  {t('currentLanguage') === 'en' ? 'Start Today!' : 'Bugun Boshlang!'}
                 </h3>
                 
                 <div className="space-y-4 mb-8">
@@ -168,25 +168,25 @@ const Contact: React.FC = () => {
                     <div className="w-10 h-10 bg-white/20 rounded-2xl flex items-center justify-center text-sm font-bold shadow-lg">
                       1
                     </div>
-                    <span>Bepul maslahat seansini buyurtma qiling</span>
+                    <span>{t('currentLanguage') === 'en' ? 'Book a free consultation session' : 'Bepul maslahat seansini buyurtma qiling'}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-white/20 rounded-2xl flex items-center justify-center text-sm font-bold shadow-lg">
                       2
                     </div>
-                    <span>Profilingizga mos universitetlar ro'yxatini oling</span>
+                    <span>{t('currentLanguage') === 'en' ? 'Get a list of universities matching your profile' : 'Profilingizga mos universitetlar ro\'yxatini oling'}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-white/20 rounded-2xl flex items-center justify-center text-sm font-bold shadow-lg">
                       3
                     </div>
-                    <span>Hujjatlarni tayyorlash jarayonini boshlang</span>
+                    <span>{t('currentLanguage') === 'en' ? 'Start the document preparation process' : 'Hujjatlarni tayyorlash jarayonini boshlang'}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-white/20 rounded-2xl flex items-center justify-center text-sm font-bold shadow-lg">
                       4
                     </div>
-                    <span>AQSh universitetlariga muvaffaqiyatli qabul qiling</span>
+                    <span>{t('currentLanguage') === 'en' ? 'Successfully get admitted to US universities' : 'AQSh universitetlariga muvaffaqiyatli qabul qiling'}</span>
                   </div>
                 </div>
 
@@ -198,7 +198,7 @@ const Contact: React.FC = () => {
               {/* Useful Links */}
               <div className="mt-8 p-6 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-3xl shadow-xl">
                 <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                  Foydali Havolalar
+                  {t('usefulLinks')}
                 </h4>
                 <div className="space-y-3">
                   <a

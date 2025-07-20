@@ -40,7 +40,7 @@ const HowItWorks: React.FC = () => {
             {t('howItWorksTitle')}
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            4 oddiy qadam orqali AQSh universitetlariga qabul va grant olish jarayoni
+            {t('currentLanguage') === 'en' ? 'The process of admission and obtaining grants to US universities through 4 simple steps' : '4 oddiy qadam orqali AQSh universitetlariga qabul va grant olish jarayoni'}
           </p>
         </div>
 

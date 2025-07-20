@@ -213,17 +213,17 @@ const Universities: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Universities & Majors
+            {t('universitiesTitle')}
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Explore our partner universities and discover the perfect academic program for your future career
+            {t('universitiesDescription')}
           </p>
         </div>
 
         {/* Universities Section */}
         <div className="mb-20">
           <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">
-            Our Partner Universities
+            {t('partnerUniversitiesTitle')}
           </h3>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -275,7 +275,7 @@ const Universities: React.FC = () => {
         {/* Majors Section */}
         <div>
           <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">
-            Fields of Study
+            {t('fieldsOfStudyTitle')}
           </h3>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

@@ -40,7 +40,7 @@ const Services: React.FC = () => {
             {t('servicesTitle')}
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Professional xizmatlar orqali AQSh universitetlariga qabul va grant olish jarayonida to'liq yordam
+            {t('currentLanguage') === 'en' ? 'Complete assistance in the process of admission and obtaining grants to US universities through professional services' : 'Professional xizmatlar orqali AQSh universitetlariga qabul va grant olish jarayonida to\'liq yordam'}
           </p>
         </div>
 
@@ -70,7 +70,7 @@ const Services: React.FC = () => {
                 </ul>
                 
                 <button className="group/btn flex items-center space-x-2 bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-2 rounded-xl hover:from-orange-600 hover:to-red-600 font-medium transition-all duration-300 shadow-lg hover:shadow-xl">
-                  <span>Batafsil</span>
+                  <span>{t('currentLanguage') === 'en' ? 'Learn More' : 'Batafsil'}</span>
                   <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
                 </button>
               </div>

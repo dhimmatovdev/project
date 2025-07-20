@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
 
   const footerLinks = [
     {
-      title: 'Navigatsiya',
+      title: t('navigation'),
       links: [
         { name: t('home'), href: '#home' },
         { name: t('about'), href: '#about' },
@@ -20,20 +20,20 @@ const Footer: React.FC = () => {
       ]
     },
     {
-      title: 'Xizmatlar',
+      title: t('services'),
       links: [
-        { name: 'Qabul Yordami', href: '#services' },
-        { name: 'Viza Maslahat', href: '#services' },
-        { name: 'Grant Yordami', href: '#services' },
-        { name: 'Shaxsiy Maslahat', href: '#contact' }
+        { name: t('admissionHelp'), href: '#services' },
+        { name: t('visaConsultation'), href: '#services' },
+        { name: t('scholarshipHelp'), href: '#services' },
+        { name: t('personalConsultation'), href: '#contact' }
       ]
     },
     {
-      title: 'Foydali Havolalar',
+      title: t('usefulLinks'),
       links: [
         { name: 'GPA Calculator', href: 'https://oakland.edu/gpa-calculator/', external: true },
         { name: 'Duolingo Test', href: 'https://englishtest.duolingo.com/', external: true },
-        { name: 'IELTS Ma\'lumot', href: 'https://www.ielts.org/', external: true },
+        { name: 'IELTS Info', href: 'https://www.ielts.org/', external: true },
         { name: 'StudyUSA', href: 'https://www.studyusa.com/', external: true }
       ]
     }
@@ -83,7 +83,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <img 
-                src="/public/humo_logo.png" 
+                src="/humo_logo.png" 
                 alt="Humo Agency Logo" 
                 className="w-10 h-10 object-contain rounded-lg"
               />
@@ -95,7 +95,7 @@ const Footer: React.FC = () => {
             <div className="flex items-start space-x-2 mb-4">
               <MapPin className="w-4 h-4 text-orange-500 mt-1 flex-shrink-0" />
               <span className="text-gray-400 text-sm">
-                Yunusobod tumani, Amir Temur shoh ko'chasi 108-uy, Toshkent, O'zbekiston
+                {t('currentLanguage') === 'en' ? 'Yunusobod District, Amir Temur Street 108, Tashkent, Uzbekistan' : 'Yunusobod tumani, Amir Temur shoh ko\'chasi 108-uy, Toshkent, O\'zbekiston'}
               </span>
             </div>
             <div className="flex space-x-4">
@@ -150,17 +150,17 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © 2024 Humo Agency. Barcha huquqlar himoyalangan.
+              © 2024 Humo Agency. {t('allRightsReserved')}
             </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors">
-                Maxfiylik Siyosati
+                {t('privacyPolicy')}
               </a>
               <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors">
-                Foydalanish Shartlari
+                {t('termsOfService')}
               </a>
               <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors">
-                Bog'lanish
+                {t('contact')}
               </a>
             </div>
           </div>

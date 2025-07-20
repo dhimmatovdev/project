@@ -9,22 +9,22 @@ const About: React.FC = () => {
     {
       icon: <Award className="w-6 h-6" />,
       title: t('aboutFeature1'),
-      description: 'Amerika\'ning eng yaxshi universitetlarida to\'liq grant imkoniyatlari'
+      description: t('currentLanguage') === 'en' ? 'Full scholarship opportunities at America\'s best universities' : 'Amerika\'ning eng yaxshi universitetlarida to\'liq grant imkoniyatlari'
     },
     {
       icon: <CheckCircle className="w-6 h-6" />,
       title: t('aboutFeature2'),
-      description: 'Faqat IELTS yoki Duolingo testi yetarli'
+      description: t('currentLanguage') === 'en' ? 'Only IELTS or Duolingo test is sufficient' : 'Faqat IELTS yoki Duolingo testi yetarli'
     },
     {
       icon: <Users className="w-6 h-6" />,
       title: t('aboutFeature3'),
-      description: 'Professional mentorlar tomonidan to\'liq qo\'llab-quvvatlash'
+      description: t('currentLanguage') === 'en' ? 'Full support by professional mentors' : 'Professional mentorlar tomonidan to\'liq qo\'llab-quvvatlash'
     },
     {
       icon: <Globe className="w-6 h-6" />,
       title: t('aboutFeature4'),
-      description: 'Sizning profilingizga mos keladigan universitetlar ro\'yxati'
+      description: t('currentLanguage') === 'en' ? 'List of universities matching your profile' : 'Sizning profilingizga mos keladigan universitetlar ro\'yxati'
     }
   ];
 

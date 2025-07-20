@@ -63,7 +63,7 @@ const Testimonials: React.FC = () => {
             {t('successTitle')}
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Bizning talabalarning muvaffaqiyat hikoyalari va AQSh universitetlaridagi yutuqlari
+            {t('currentLanguage') === 'en' ? 'Success stories of our students and their achievements at US universities' : 'Bizning talabalarning muvaffaqiyat hikoyalari va AQSh universitetlaridagi yutuqlari'}
           </p>
         </div>
 
