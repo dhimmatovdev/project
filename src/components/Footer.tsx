@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <img 
-                src="/image.png" 
+                src="/public/humo_logo.png" 
                 alt="Humo Agency Logo" 
                 className="w-10 h-10 object-contain rounded-lg"
               />

@@ -47,9 +47,9 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <img 
-              src="/image.png" 
+              src="/public/humo_logo.png" 
               alt="Humo Agency Logo" 
-              className="w-12 h-12 object-contain rounded-lg shadow-lg"
+              className="w-20 h-20 object-contain rounded-lg shadow-lg"
               style={{
                 filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.1))'
               }}

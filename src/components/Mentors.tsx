@@ -1,7 +1,8 @@
 import React from 'react';
 import { MessageCircle, Instagram } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
-
+import ment1  from '../../public/image_copy.png';
+import ment2 from '../../public/image.png';
 const Mentors: React.FC = () => {
   const { t } = useLanguage();
 
@@ -9,23 +10,16 @@ const Mentors: React.FC = () => {
     {
       id: '1',
       name: 'Dr. Sarah Johnson',
-      image: 'https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: ment1,
       telegram: 'https://t.me/sarahjohnson',
       instagram: 'https://instagram.com/sarahjohnson'
     },
     {
       id: '2',
       name: 'Michael Chen',
-      image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: ment2,
       telegram: 'https://t.me/michaelchen',
       instagram: 'https://instagram.com/michaelchen'
-    },
-    {
-      id: '3',
-      name: 'Dr. Emily Rodriguez',
-      image: 'https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=400',
-      telegram: 'https://t.me/emilyrodriguez',
-      instagram: 'https://instagram.com/emilyrodriguez'
     }
   ];
 
@@ -41,17 +35,20 @@ const Mentors: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto ">
           {mentors.map((mentor) => (
             <div key={mentor.id} className="group">
               <div className="bg-gradient-to-br from-white via-gray-50 to-gray-100 dark:from-gray-800 dark:via-gray-700 dark:to-gray-600 rounded-3xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-3">
                 {/* Mentor Photo */}
                 <div className="relative mb-4">
-                  <img
-                    src={mentor.image}
-                    alt={mentor.name}
-                    className="w-full h-48 rounded-2xl object-cover shadow-xl group-hover:scale-105 transition-transform duration-300"
-                  />
+                <div className="relative mb-4 overflow-hidden rounded-2xl">
+  <img
+    src={mentor.image}
+    alt={mentor.name}
+    className="w-full h-60 object-cover object-center transition-transform duration-300 group-hover:scale-105"
+  />
+</div>
+
                 </div>
 
                 {/* Mentor Info */}
