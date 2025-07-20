@@ -12,6 +12,7 @@ const Footer: React.FC = () => {
         { name: t('home'), href: '#home' },
         { name: t('about'), href: '#about' },
         { name: t('services'), href: '#services' },
+        { name: t('universities'), href: '#universities' },
         { name: t('mentors'), href: '#mentors' },
         { name: t('gallery'), href: '#gallery' },
         { name: t('faq'), href: '#faq' },
