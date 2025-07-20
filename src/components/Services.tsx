@@ -22,13 +22,13 @@ const Services: React.FC = () => {
       icon: <Users className="w-8 h-8" />,
       title: t('service3Title'),
       description: t('service3Description'),
-      features: ['Profile Analysis', 'Match Making', 'Safety Schools', 'Dream Universities']
+      features: ['Profile Analysis', 'Personal University List', 'Reach Universities', 'Dream Universities']
     },
     {
       icon: <DollarSign className="w-8 h-8" />,
       title: t('service4Title'),
       description: t('service4Description'),
-      features: ['Flexible Payment', 'No Hidden Fees', 'Success Guarantee', 'Money Back Option']
+      features: ['Flexible Payment', 'No Hidden Fees', 'Success Guarantee', 'Discounts']
     }
   ];
 
@@ -84,20 +84,20 @@ const Services: React.FC = () => {
             <div>
               <h3 className="text-2xl font-bold mb-4">Duolingo English Test</h3>
               <p className="text-lg mb-4">
-                Online imtihon, 48 soat ichida natija, 5000+ universitet tomonidan qabul qilinadigan test
+                {t('duolingoDescription')}
               </p>
               <div className="flex items-center space-x-4">
                 <div className="text-center">
-                  <div className="text-2xl font-bold">$59</div>
-                  <div className="text-sm opacity-90">Test narxi</div>
+                  <div className="text-2xl font-bold">$79</div>
+                  <div className="text-sm opacity-90">{t('testPrice')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold">48h</div>
-                  <div className="text-sm opacity-90">Natija vaqti</div>
+                  <div className="text-sm opacity-90">{t('resultTime')}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold">5000+</div>
-                  <div className="text-sm opacity-90">Universitet</div>
+                  <div className="text-2xl font-bold">4000+</div>
+                  <div className="text-sm opacity-90">{t('universities')}</div>
                 </div>
               </div>
             </div>

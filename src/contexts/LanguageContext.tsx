@@ -24,17 +24,26 @@ const translations = {
     contact: 'Aloqa',
     
     // Hero Section
-    heroTitle: 'Top Universitetlarga Sizning Yo\'lingiz',
-    heroSubtitle: 'AQSh\'ning eng yaxshi universitetlariga 100% grant bilan o\'qish imkoniyati',
+    heroTitle: 'Top Universitetlar Sizning Qo\'lingizda. 🇺🇸 Humo Agency Bilan Orzuyingizga Erishing!',
+    heroSubtitle: 'AQSh va Yevropa universitetlariga to\'liq grant bilan o\'qish imkoniyati',
     getStarted: 'Boshlash',
+    scholarshipOpportunities: '100% Grant Imkoniyatlari',
+    noSatRequired: 'SAT talab qilinmaydi',
+    ieltsOrDuolingo: 'IELTS yoki Duolingo',
+    f1VisaHelp: 'F1 Visa Yordami',
+    successfulStudents: 'Muvaffaqiyatli Talabalar',
+    partnerUniversities: 'Hamkor Universitetlar',
+    visaSuccess: 'Viza Muvaffaqiyati',
     
     // About Section
     aboutTitle: 'Humo Agency Haqida',
-    aboutDescription: 'Biz talabalarni AQSh\'ning eng yaxshi universitetlariga qabul qilish va to\'liq grantlar olishda yordam beradigan ishonchli maslahatchi agentligimiz.',
+    aboutDescription: 'Humo Agency - talabalarni AQSh va Yevropa\'ning eng yaxshi universitetlariga qabul qilish va to\'liq grantlar olishda yordam beradigan ishonchli tashkilot.',
     aboutFeature1: '100% grant imkoniyatlari',
     aboutFeature2: 'SAT talab qilinmaydi',
     aboutFeature3: 'IELTS yoki Duolingo etarli',
-    aboutFeature4: 'Shaxsiy kollej ro\'yxati',
+    aboutFeature4: 'Shaxsiy universitet ro\'yxati',
+    ourMission: 'Bizning Missiyamiz',
+    missionDescription: 'Humo Agency har bir talabaning AQSh va Yevropa universitetlariga qabul qilish va to\'liq grant olish orzularini amalga oshirishda yordam beradi. Biz professional maslahat va to\'liq qo\'llab-quvvatlash orqali muvaffaqiyatli kelajak qurishingizga yordam beramiz.',
     
     // Services Section
     servicesTitle: 'Bizning Xizmatlarimiz',
@@ -42,10 +51,14 @@ const translations = {
     service1Description: 'AQSh universitetlariga qabul jarayonida to\'liq yordam va grant imkoniyatlarini topish',
     service2Title: 'Viza Suhbati Tayyorligi',
     service2Description: 'F1 viza suhbatiga professional tayyorgarlik va amaliy mashqlar',
-    service3Title: 'Shaxsiy Kollej Ro\'yxati',
+    service3Title: 'Shaxsiy Universitet Ro\'yxati',
     service3Description: 'Sizning profilingizga mos keladigan universitetlar ro\'yxatini tayyorlash',
     service4Title: 'Arzon Narxlar',
     service4Description: 'Barcha xizmatlar uchun hamyonbop narxlar va to\'lov rejalari',
+    duolingoDescription: 'Online imtihon, 48 soat ichida natija, 4000+ universitet tomonidan qabul qilinadigan test',
+    testPrice: 'Test narxi',
+    resultTime: 'Natija vaqti',
+    universities: 'Universitet',
     
     // How It Works
     howItWorksTitle: 'Qanday Ishlaydi',
@@ -54,7 +67,7 @@ const translations = {
     step2Title: 'Hujjat Tayyorlash',
     step2Description: 'Barcha kerakli hujjatlarni tayyorlash va tekshirish',
     step3Title: 'Ariza Topshirish',
-    step3Description: 'Universitetlarga arizalar topshirish va kuzatish',
+    step3Description: 'Universitetlarga arizalar topshirish va grant olish',
     step4Title: 'Viza Tayyorligi',
     step4Description: 'F1 viza uchun suhbat tayyorligi va qo\'llab-quvvatlash',
     
@@ -63,6 +76,9 @@ const translations = {
     
     // Mentors
     mentorsTitle: 'Bizning Mentorlarimiz',
+    workWithMentors: 'Professional Mentorlar Bilan Ishlang',
+    mentorSupport: 'Har bir mentor sizning muvaffaqiyatingiz uchun shaxsiy maslahat va qo\'llab-quvvatlash beradi',
+    chooseMentor: 'Mentor Tanlash',
     
     // Gallery
     galleryTitle: 'Galereya',
@@ -108,17 +124,26 @@ const translations = {
     contact: 'Contact',
     
     // Hero Section
-    heroTitle: 'Your Pathway to Top U.S. Universities',
-    heroSubtitle: 'Get 100% scholarships to study at America\'s best universities',
+    heroTitle: 'Top Universities Are Within Your Reach. 🇺🇸 Achieve Your Dream with Humo Agency!',
+    heroSubtitle: 'Get full scholarships to study at top universities in the USA and Europe',
     getStarted: 'Get Started',
+    scholarshipOpportunities: '100% Scholarship Opportunities',
+    noSatRequired: 'No SAT Required',
+    ieltsOrDuolingo: 'IELTS or Duolingo',
+    f1VisaHelp: 'F1 Visa Help',
+    successfulStudents: 'Successful Students',
+    partnerUniversities: 'Partner Universities',
+    visaSuccess: 'Visa Success',
     
     // About Section
     aboutTitle: 'About Humo Agency',
-    aboutDescription: 'We are a trusted consultancy helping students get admitted to top U.S. universities and secure full scholarships.',
+    aboutDescription: 'Humo Agency is a trusted organization that helps students get admitted into top universities in the USA and Europe, including securing full scholarships.',
     aboutFeature1: '100% scholarship opportunities',
     aboutFeature2: 'No SAT required',
     aboutFeature3: 'IELTS or Duolingo accepted',
-    aboutFeature4: 'Personalized college list',
+    aboutFeature4: 'Personal University List',
+    ourMission: 'Our Mission',
+    missionDescription: 'Humo Agency is dedicated to helping every student achieve their dream of being accepted into U.S. and European universities with full scholarships. Through professional guidance and complete support, we help build a successful future.',
     
     // Services Section
     servicesTitle: 'Our Services',
@@ -126,10 +151,14 @@ const translations = {
     service1Description: 'Complete support for university admission process and finding scholarship opportunities',
     service2Title: 'Visa Interview Preparation',
     service2Description: 'Professional preparation for F1 visa interview with practical training',
-    service3Title: 'Personalized College List',
+    service3Title: 'Personal University List',
     service3Description: 'Customized university list based on your profile and preferences',
     service4Title: 'Affordable Pricing',
     service4Description: 'Budget-friendly prices and flexible payment plans for all services',
+    duolingoDescription: 'Online test, results in 48 hours, accepted by 4000+ universities',
+    testPrice: 'Test Fee',
+    resultTime: 'Result Time',
+    universities: 'Universities',
     
     // How It Works
     howItWorksTitle: 'How It Works',
@@ -138,7 +167,7 @@ const translations = {
     step2Title: 'Document Preparation',
     step2Description: 'Prepare and review all required documents',
     step3Title: 'Application Submission',
-    step3Description: 'Submit applications to universities and track progress',
+    step3Description: 'University Applications and Scholarship Acquisition',
     step4Title: 'Visa Preparation',
     step4Description: 'F1 visa interview preparation and support',
     
@@ -147,6 +176,9 @@ const translations = {
     
     // Mentors
     mentorsTitle: 'Meet Our Mentors',
+    workWithMentors: 'Work with Professional Mentors',
+    mentorSupport: 'Each mentor provides personalized guidance and support for your success',
+    chooseMentor: 'Choose Mentor',
     
     // Gallery
     galleryTitle: 'Gallery',

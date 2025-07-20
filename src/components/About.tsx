@@ -44,9 +44,9 @@ const About: React.FC = () => {
           {/* Left Content */}
           <div>
             <div className="bg-gradient-to-br from-orange-400 via-orange-500 to-red-500 text-white p-8 rounded-3xl mb-8 shadow-2xl">
-              <h3 className="text-2xl font-bold mb-4">Bizning Missiyamiz</h3>
+              <h3 className="text-2xl font-bold mb-4">{t('ourMission')}</h3>
               <p className="text-lg leading-relaxed">
-                Humo Agency har bir talabaning AQSh universitetlariga qabul qilish va to'liq grant olish orzularini amalga oshirishda yordam beradi. Biz professional maslahat va to'liq qo'llab-quvvatlash orqali muvaffaqiyatli kelajak qurishingizga yordam beramiz.
+                {t('missionDescription')}
               </p>
             </div>
 

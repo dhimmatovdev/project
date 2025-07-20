@@ -1,9 +1,33 @@
 import React from 'react';
-import { ArrowRight, Star } from 'lucide-react';
+import { ArrowRight, Star, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Hero: React.FC = () => {
   const { t } = useLanguage();
+  const [currentSlide, setCurrentSlide] = React.useState(0);
+
+  const backgroundImages = [
+    'https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    'https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    'https://images.pexels.com/photos/159490/yale-university-landscape-universities-schools-159490.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    'https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=1920'
+  ];
+
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % backgroundImages.length);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % backgroundImages.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + backgroundImages.length) % backgroundImages.length);
+  };
 
   const handleGetStarted = () => {
     const element = document.querySelector('#contact');
@@ -16,12 +40,44 @@ const Hero: React.FC = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gray-50 dark:bg-gray-800">
       {/* Background */}
       <div className="absolute inset-0">
-        <img
-          src="https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=1920"
-          alt="Students studying and consulting"
-          className="w-full h-full object-cover"
-        />
+        {backgroundImages.map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt={`Background ${index + 1}`}
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+              index === currentSlide ? 'opacity-100' : 'opacity-0'
+            }`}
+          />
+        ))}
         <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/50 to-black/70 dark:from-black/70 dark:via-black/60 dark:to-black/80"></div>
+      </div>
+
+      {/* Slider Controls */}
+      <button
+        onClick={prevSlide}
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 p-3 rounded-full bg-white/20 backdrop-blur-md text-white hover:bg-white/30 transition-all duration-300"
+      >
+        <ChevronLeft className="w-6 h-6" />
+      </button>
+      <button
+        onClick={nextSlide}
+        className="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 p-3 rounded-full bg-white/20 backdrop-blur-md text-white hover:bg-white/30 transition-all duration-300"
+      >
+        <ChevronRight className="w-6 h-6" />
+      </button>
+
+      {/* Slide Indicators */}
+      <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 z-20 flex space-x-2">
+        {backgroundImages.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => setCurrentSlide(index)}
+            className={`w-3 h-3 rounded-full transition-all duration-300 ${
+              index === currentSlide ? 'bg-white' : 'bg-white/50'
+            }`}
+          />
+        ))}
       </div>
 
       {/* Animated Background Elements */}
@@ -36,7 +92,7 @@ const Hero: React.FC = () => {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-orange-500/90 to-red-500/90 backdrop-blur-md rounded-2xl px-6 py-3 mb-6 shadow-xl">
             <Star className="w-4 h-4 text-yellow-300" />
-            <span className="text-white text-sm font-medium">100% Grant Imkoniyatlari</span>
+            <span className="text-white text-sm font-medium">{t('scholarshipOpportunities')}</span>
           </div>
 
           {/* Main Title */}
@@ -52,13 +108,13 @@ const Hero: React.FC = () => {
           {/* Features */}
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <div className="bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-md rounded-2xl px-6 py-3 shadow-xl">
-              <span className="text-white text-sm font-medium">✓ SAT talab qilinmaydi</span>
+              <span className="text-white text-sm font-medium">✓ {t('noSatRequired')}</span>
             </div>
             <div className="bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-md rounded-2xl px-6 py-3 shadow-xl">
-              <span className="text-white text-sm font-medium">✓ IELTS yoki Duolingo</span>
+              <span className="text-white text-sm font-medium">✓ {t('ieltsOrDuolingo')}</span>
             </div>
             <div className="bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-md rounded-2xl px-6 py-3 shadow-xl">
-              <span className="text-white text-sm font-medium">✓ F1 Visa Yordami</span>
+              <span className="text-white text-sm font-medium">✓ {t('f1VisaHelp')}</span>
             </div>
           </div>
 
@@ -74,20 +130,20 @@ const Hero: React.FC = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16">
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">500+</div>
-              <div className="text-white/80">Muvaffaqiyatli Talabalar</div>
+              <div className="text-3xl font-bold text-white mb-2">30+</div>
+              <div className="text-white/80">{t('successfulStudents')}</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-white mb-2">20+</div>
+              <div className="text-white/80">{t('partnerUniversities')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-white mb-2">100%</div>
-              <div className="text-white/80">Grant Imkoniyatlari</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">50+</div>
-              <div className="text-white/80">Hamkor Universitetlar</div>
+              <div className="text-white/80">{t('scholarshipOpportunities')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-white mb-2">95%</div>
-              <div className="text-white/80">Viza Muvaffaqiyati</div>
+              <div className="text-white/80">{t('visaSuccess')}</div>
             </div>
           </div>
         </div>
