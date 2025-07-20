@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Star, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowRight, Star } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Hero: React.FC = () => {
@@ -20,14 +20,6 @@ const Hero: React.FC = () => {
     }, 5000);
     return () => clearInterval(interval);
   }, []);
-
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % backgroundImages.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + backgroundImages.length) % backgroundImages.length);
-  };
 
   const handleGetStarted = () => {
     const element = document.querySelector('#contact');
@@ -54,18 +46,6 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Slider Controls */}
-      <button
-        onClick={prevSlide}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 p-3 rounded-full bg-white/20 backdrop-blur-md text-white hover:bg-white/30 transition-all duration-300"
-      >
-        <ChevronLeft className="w-6 h-6" />
-      </button>
-      <button
-        onClick={nextSlide}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 p-3 rounded-full bg-white/20 backdrop-blur-md text-white hover:bg-white/30 transition-all duration-300"
-      >
-        <ChevronRight className="w-6 h-6" />
-      </button>
 
       {/* Slide Indicators */}
       <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 z-20 flex space-x-2">
@@ -90,7 +70,7 @@ const Hero: React.FC = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Badge */}
-          <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-orange-500/90 to-red-500/90 backdrop-blur-md rounded-2xl px-6 py-3 mb-6 shadow-xl">
+          <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-orange-500/90 to-red-500/90 backdrop-blur-md rounded-2xl px-6 py-3 mb-12 shadow-xl">
             <Star className="w-4 h-4 text-yellow-300" />
             <span className="text-white text-sm font-medium">{t('scholarshipOpportunities')}</span>
           </div>
