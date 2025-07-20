@@ -24,7 +24,7 @@ const translations = {
     contact: 'Aloqa',
     
     // Hero Section
-    heroTitle: 'Top Universitetlar Sizning Qo\'lingizda. 🇺🇸 Humo Agency Bilan Orzuyingizga Erishing!',
+    heroTitle: 'Humo Agency Bilan Orzuyingizga Erishing!',
     heroSubtitle: 'AQSh va Yevropa universitetlariga to\'liq grant bilan o\'qish imkoniyati',
     getStarted: 'Boshlash',
     scholarshipOpportunities: '100% Grant Imkoniyatlari',
