@@ -42,7 +42,7 @@ const Header: React.FC = () => {
         ? 'bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm shadow-lg' 
         : 'bg-transparent'
     }`}>
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-0.5 py-0.5">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">

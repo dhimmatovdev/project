@@ -1,18 +1,18 @@
 import React from 'react';
 import { MessageCircle, Instagram } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
-import ment1  from '../../public/image_copy.png';
-import ment2 from '../../public/image.png';
+import ment1  from '../../public/1.png';
+import ment2 from '../../public/2.png';
 const Mentors: React.FC = () => {
   const { t } = useLanguage();
 
   const mentors = [
     {
       id: '1',
-      name: 'Dr. Sarah Johnson',
+      name: 'Asomiddin Akhadov',
       image: ment1,
-      telegram: 'https://t.me/sarahjohnson',
-      instagram: 'https://instagram.com/sarahjohnson'
+      telegram: 'https://t.me/akhadooff',
+      instagram: 'https://instagram.com/akhadooff'
     },
     {
       id: '2',
