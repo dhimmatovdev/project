@@ -75,27 +75,45 @@ const translations = {
     // Success Stories
     successTitle: 'Muvaffaqiyat Hikoyalari',
     
-    // Mentors
-    mentorsTitle: 'Bizning Mentorlarimiz',
+    // Team
+    teamTitle: 'Meet Our Team',
+    teamDescription: 'Tajribali professional ekspertlar sizni muvaffaqiyatga olib boradi',
     workWithMentors: 'Professional Mentorlar Bilan Ishlang',
     mentorSupport: 'Har bir mentor sizning muvaffaqiyatingiz uchun shaxsiy maslahat va qo\'llab-quvvatlash beradi',
     chooseMentor: 'Mentor Tanlash',
     
     // Gallery
     galleryTitle: 'Galereya',
+    galleryDescription: 'Bizning talabalarning muvaffaqiyat lahzalari va universitetlardagi hayotdan suratlar',
     
     // FAQ
     faqTitle: 'Tez-tez So\'raladigan Savollar',
+    faqDescription: 'Eng ko\'p so\'raladigan savollar va ularning javoblari',
     
     // Contact
     contactTitle: 'Biz Bilan Bog\'laning',
+    contactDescription: 'Bizning mutaxassislar bilan bog\'laning va bepul maslahat oling',
     applyNow: 'Hujjat Topshirish',
+    
+    // Universities
+    universitiesTitle: 'Universities & Partnerships',
+    universitiesDescription: 'AQSh va Yevropa\'ning eng yaxshi universitetlari bilan hamkorlik',
+    partnerUniversitiesTitle: 'Hamkor Universitetlar',
+    fieldsOfStudyTitle: 'Ta\'lim Yo\'nalishlari',
     
     // Footer
     footerDescription: 'Sizning orzuyingizga eltuvchi ishonchli hamrohingiz.',
+    navigation: 'Navigatsiya',
     usefulLinks: 'Foydali Havolalar',
     gpaCalculator: 'GPA Kalkulyatori',
     duolingoInfo: 'Duolingo Ma\'lumoti',
+    allRightsReserved: 'Barcha huquqlar himoyalangan.',
+    privacyPolicy: 'Maxfiylik Siyosati',
+    termsOfService: 'Foydalanish Shartlari',
+    admissionHelp: 'Qabul Yordami',
+    visaConsultation: 'Viza Maslahati',
+    scholarshipHelp: 'Grant Yordami',
+    personalConsultation: 'Shaxsiy Maslahat',
     
     // Documents
     documentsTitle: 'Kerakli Hujjatlar',
@@ -109,10 +127,17 @@ const translations = {
     
     // Admission Cycles
     admissionTitle: 'Qabul Davrlari',
-    fallAdmission: 'Kuz Qabuli',
-    springAdmission: 'Bahor Qabuli',
+    fallAdmission: 'Kuzgi Qabul',
+    springAdmission: 'Qishki Qabul',
     fallDescription: 'Avgustdan martgacha hujjat topshirish',
-    springDescription: 'Maydan noyabrgacha hujjat topshirish'
+    springDescription: 'Maydan noyabrgacha hujjat topshirish',
+    
+    // Team
+    teamTitle: 'Bizning Jamoa',
+    teamDescription: 'Tajribali professional ekspertlar sizni muvaffaqiyatga olib boradi',
+    workWithMentors: 'Professional Mentorlar Bilan Ishlang',
+    mentorSupport: 'Har bir mentor sizning muvaffaqiyatingiz uchun shaxsiy maslahat va qo\'llab-quvvatlash beradi',
+    chooseMentor: 'Mentor Tanlash'
   },
   en: {
     // Navigation
@@ -176,27 +201,45 @@ const translations = {
     // Success Stories
     successTitle: 'Success Stories',
     
-    // Mentors
-    mentorsTitle: 'Meet Our Mentors',
+    // Team
+    teamTitle: 'Meet Our Team',
+    teamDescription: 'Experienced professional experts who guide you to success',
     workWithMentors: 'Work with Professional Mentors',
     mentorSupport: 'Each mentor provides personalized guidance and support for your success',
     chooseMentor: 'Choose Mentor',
     
     // Gallery
     galleryTitle: 'Gallery',
+    galleryDescription: 'Success moments of our students and photos from university life',
     
     // FAQ
     faqTitle: 'Frequently Asked Questions',
+    faqDescription: 'Most frequently asked questions and their answers',
     
     // Contact
     contactTitle: 'Contact Us',
+    contactDescription: 'Get in touch with our specialists and receive free consultation',
     applyNow: 'Apply Now',
+    
+    // Universities
+    universitiesTitle: 'Universities & Partnerships',
+    universitiesDescription: 'Partnerships with the best universities in the USA and Europe',
+    partnerUniversitiesTitle: 'Partner Universities',
+    fieldsOfStudyTitle: 'Fields of Study',
     
     // Footer
     footerDescription: 'Your trusted partner in achieving your dreams.',
+    navigation: 'Navigation',
     usefulLinks: 'Useful Links',
     gpaCalculator: 'GPA Calculator',
     duolingoInfo: 'Duolingo Information',
+    allRightsReserved: 'All rights reserved.',
+    privacyPolicy: 'Privacy Policy',
+    termsOfService: 'Terms of Service',
+    admissionHelp: 'Admission Help',
+    visaConsultation: 'Visa Consultation',
+    scholarshipHelp: 'Scholarship Help',
+    personalConsultation: 'Personal Consultation',
     
     // Documents
     documentsTitle: 'Required Documents',
@@ -210,10 +253,17 @@ const translations = {
     
     // Admission Cycles
     admissionTitle: 'Admission Cycles',
-    fallAdmission: 'Fall Admission',
-    springAdmission: 'Spring Admission',
+    fallAdmission: 'Fall Admission (Kuzgi Qabul)',
+    springAdmission: 'Winter Admission (Qishki Qabul)',
     fallDescription: 'Document submission from August to March',
-    springDescription: 'Document submission from May to November'
+    springDescription: 'Document submission from May to November',
+    
+    // Team
+    teamTitle: 'Meet Our Team',
+    teamDescription: 'Experienced professional experts who guide you to success',
+    workWithMentors: 'Work with Professional Mentors',
+    mentorSupport: 'Each mentor provides personalized guidance and support for your success',
+    chooseMentor: 'Choose Mentor'
   }
 };
 

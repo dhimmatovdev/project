@@ -84,13 +84,13 @@ const Hero: React.FC = () => {
           {/* Features */}
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <div className="bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-md rounded-2xl px-6 py-3 shadow-xl">
-              <span className="text-white text-sm font-medium">✓ {t('noSatRequired')}</span>
+              <span className="text-white text-sm font-medium">✓ SAT talab qilinmaydi</span>
             </div>
             <div className="bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-md rounded-2xl px-6 py-3 shadow-xl">
-              <span className="text-white text-sm font-medium">✓ {t('ieltsOrDuolingo')}</span>
+              <span className="text-white text-sm font-medium">✓ IELTS yoki Duolingo</span>
             </div>
             <div className="bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-md rounded-2xl px-6 py-3 shadow-xl">
-              <span className="text-white text-sm font-medium">✓ {t('f1VisaHelp')}</span>
+              <span className="text-white text-sm font-medium">✓ F1 Visa Yordami</span>
             </div>
           </div>
 

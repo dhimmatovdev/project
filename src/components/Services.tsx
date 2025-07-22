@@ -84,11 +84,11 @@ const Services: React.FC = () => {
             <div>
               <h3 className="text-2xl font-bold mb-4">Duolingo English Test</h3>
               <p className="text-lg mb-4">
-                {t('duolingoDescription')}
+                Online imtihon, 48 soat ichida natija, 4000+ universitet tomonidan qabul qilinadigan test
               </p>
               <div className="flex items-center space-x-4">
                 <div className="text-center">
-                  <div className="text-2xl font-bold">$79</div>
+                  <div className="text-2xl font-bold">$59</div>
                   <div className="text-sm opacity-90">{t('testPrice')}</div>
                 </div>
                 <div className="text-center">
@@ -96,7 +96,7 @@ const Services: React.FC = () => {
                   <div className="text-sm opacity-90">{t('resultTime')}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold">4000+</div>
+                  <div className="text-2xl font-bold">5000+</div>
                   <div className="text-sm opacity-90">{t('universities')}</div>
                 </div>
               </div>
