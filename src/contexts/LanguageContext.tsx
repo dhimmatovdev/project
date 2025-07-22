@@ -137,7 +137,9 @@ const translations = {
     teamDescription: 'Tajribali professional ekspertlar sizni muvaffaqiyatga olib boradi',
     workWithMentors: 'Professional Mentorlar Bilan Ishlang',
     mentorSupport: 'Har bir mentor sizning muvaffaqiyatingiz uchun shaxsiy maslahat va qo\'llab-quvvatlash beradi',
-    chooseMentor: 'Mentor Tanlash'
+    chooseMentor: 'Mentor Tanlash',
+    founderBio: 'Humo Agency hammuassisi. Dunyo bo\'ylab 30+ universitetga qabul qilingan va 1 million dollardan ortiq grant yutgan. 100+ talabaga 90% dan to\'liq o\'qish grantini yutishda va chet elda o\'qish sayohatlariga muvaffaqiyatli tayyorgarlik ko\'rishda yordam bergan. Milliy va xalqaro konferensiyalar, forumlar, festivallar va Model Birlashgan Millatlar dasturlarida faol ishtirok etadi.',
+    founder: 'Asoschisi'
   },
   en: {
     // Navigation
@@ -263,7 +265,9 @@ const translations = {
     teamDescription: 'Experienced professional experts who guide you to success',
     workWithMentors: 'Work with Professional Mentors',
     mentorSupport: 'Each mentor provides personalized guidance and support for your success',
-    chooseMentor: 'Choose Mentor'
+    chooseMentor: 'Choose Mentor',
+    founderBio: 'Co-founder of Humo Agency. Accepted to over 30 universities worldwide and secured over $1 million in scholarships. Has helped 100+ students win 90% to full-tuition scholarships and successfully prepare for their study abroad journeys. Actively involved in national and international conferences, forums, festivals, and Model United Nations programs.',
+    founder: 'Founder'
   }
 };
 
