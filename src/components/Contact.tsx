@@ -169,11 +169,13 @@ const Contact: React.FC = () => {
                       1
                     </div>
                     <span>{t('currentLanguage') === 'en' ? 'Book a free consultation session' : 'Bepul maslahat seansini buyurtma qiling'}</span>
+                    <span>{t('currentLanguage') === 'en' ? 'Book a free consultation session' : 'Bepul maslahat seansini buyurtma qiling'}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-white/20 rounded-2xl flex items-center justify-center text-sm font-bold shadow-lg">
                       2
                     </div>
+                    <span>{t('currentLanguage') === 'en' ? 'Get a list of universities matching your profile' : 'Profilingizga mos universitetlar ro\'yxatini oling'}</span>
                     <span>{t('currentLanguage') === 'en' ? 'Get a list of universities matching your profile' : 'Profilingizga mos universitetlar ro\'yxatini oling'}</span>
                   </div>
                   <div className="flex items-center space-x-3">
@@ -181,11 +183,13 @@ const Contact: React.FC = () => {
                       3
                     </div>
                     <span>{t('currentLanguage') === 'en' ? 'Start the document preparation process' : 'Hujjatlarni tayyorlash jarayonini boshlang'}</span>
+                    <span>{t('currentLanguage') === 'en' ? 'Start the document preparation process' : 'Hujjatlarni tayyorlash jarayonini boshlang'}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-white/20 rounded-2xl flex items-center justify-center text-sm font-bold shadow-lg">
                       4
                     </div>
+                    <span>{t('currentLanguage') === 'en' ? 'Successfully get admitted to US universities' : 'AQSh universitetlariga muvaffaqiyatli qabul qiling'}</span>
                     <span>{t('currentLanguage') === 'en' ? 'Successfully get admitted to US universities' : 'AQSh universitetlariga muvaffaqiyatli qabul qiling'}</span>
                   </div>
                 </div>
