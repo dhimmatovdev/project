@@ -1,9 +1,11 @@
 import React from 'react';
 import { MessageCircle, Instagram, Facebook, Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import ConsultationModal from './ConsultationModal';
 
 const Contact: React.FC = () => {
   const { t } = useLanguage();
+  const [isModalOpen, setIsModalOpen] = React.useState(false);
 
   const contactMethods = [
     {
@@ -195,7 +197,9 @@ const Contact: React.FC = () => {
                 </div>
 
                 <button className="w-full bg-gradient-to-r from-white to-gray-50 text-orange-600 py-5 rounded-2xl font-bold text-lg hover:from-gray-50 hover:to-white transition-all duration-300 shadow-xl hover:shadow-2xl">
-                  {t('applyNow')}
+                  <span onClick={() => setIsModalOpen(true)} className="cursor-pointer">
+                    Bepul Konsultatsiyaga yoziling
+                  </span>
                 </button>
               </div>
 
@@ -229,6 +233,11 @@ const Contact: React.FC = () => {
           </div>
         </div>
       </div>
+      
+      <ConsultationModal 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+      />
     </section>
   );
 };

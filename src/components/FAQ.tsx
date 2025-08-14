@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import ConsultationModal from './ConsultationModal';
 
 const FAQ: React.FC = () => {
   const { t } = useLanguage();
   const [openItems, setOpenItems] = useState<number[]>([]);
+  const [isModalOpen, setIsModalOpen] = React.useState(false);
 
   const faqs = [
     {
@@ -110,11 +112,18 @@ const FAQ: React.FC = () => {
                 Bizning mutaxassislar bilan to\'g\'ridan-to\'g\'ri gaplashing va barcha savollaringizga javob oling
               </p>
               <button className="bg-gradient-to-r from-white to-gray-50 text-orange-600 px-10 py-4 rounded-2xl font-semibold hover:from-gray-50 hover:to-white transition-all duration-300 shadow-xl hover:shadow-2xl">
-                Bepul Maslahat Olish
+                <span onClick={() => setIsModalOpen(true)} className="cursor-pointer">
+                  Bepul Konsultatsiyaga yoziling
+                </span>
               </button>
             </div>
           </div>
         </div>
+        
+        <ConsultationModal 
+          isOpen={isModalOpen} 
+          onClose={() => setIsModalOpen(false)} 
+        />
       </div>
     </section>
   );

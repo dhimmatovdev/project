@@ -1,10 +1,12 @@
 import React from 'react';
 import { ArrowRight, Star } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import ConsultationModal from './ConsultationModal';
 
 const Hero: React.FC = () => {
   const { t } = useLanguage();
   const [currentSlide, setCurrentSlide] = React.useState(0);
+  const [isModalOpen, setIsModalOpen] = React.useState(false);
 
   const backgroundImages = [
     'https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=1920',
@@ -96,10 +98,10 @@ const Hero: React.FC = () => {
 
           {/* CTA Button */}
           <button
-            onClick={handleGetStarted}
+            onClick={() => setIsModalOpen(true)}
             className="group inline-flex items-center space-x-2 bg-gradient-to-r from-orange-500 to-red-500 text-white px-10 py-5 rounded-2xl font-semibold text-lg hover:from-orange-600 hover:to-red-600 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-3xl"
           >
-            <span>{t('getStarted')}</span>
+            <span>Bepul Konsultatsiyaga yoziling</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
 
@@ -124,6 +126,11 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
+      
+      <ConsultationModal 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+      />
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
