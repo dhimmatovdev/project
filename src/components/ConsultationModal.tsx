@@ -26,7 +26,7 @@ const ConsultationModal: React.FC<ConsultationModalProps> = ({ isOpen, onClose }
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
   const [errorMessage, setErrorMessage] = useState('');
 
-  const WEB_APP_URL = "https://script.google.com/macros/s/PASTE_YOUR_DEPLOYED_URL/exec";
+  const webAppUrl = "https://script.google.com/macros/s/AKfycbyrnsbWb7iFlycONW3xlTGi3F2owFX-PVKPq75Gf6CtSZuW8OTSuMOwwif4Hh4dDeGT/exec";
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
@@ -51,7 +51,7 @@ const ConsultationModal: React.FC<ConsultationModalProps> = ({ isOpen, onClose }
     setErrorMessage('');
 
     try {
-      const response = await fetch(WEB_APP_URL, {
+      const response = await fetch(webAppUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
