@@ -74,12 +74,12 @@ const Hero: React.FC = () => {
           {/* Badge */}
 
           {/* Main Title */}
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight pt-20 md:pt-0">
             {t('heroTitle')}
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
+          <p className="text-lg sm:text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
             {t('heroSubtitle')}
           </p>
 

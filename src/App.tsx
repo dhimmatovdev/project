@@ -1,6 +1,8 @@
 import React from 'react';
+import { useState } from 'react';
 import { LanguageProvider } from './contexts/LanguageContext';
 import { ThemeProvider } from './contexts/ThemeContext';
+import EntryEffect from './components/EntryEffect';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -15,9 +17,16 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
+  const [showEntryEffect, setShowEntryEffect] = useState(true);
+
+  const handleEntryComplete = () => {
+    setShowEntryEffect(false);
+  };
+
   return (
     <ThemeProvider>
       <LanguageProvider>
+        {showEntryEffect && <EntryEffect onComplete={handleEntryComplete} />}
         <div className="min-h-screen bg-white dark:bg-gray-900">
           <Header />
           <Hero />

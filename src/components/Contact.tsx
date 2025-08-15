@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
     {
       icon: <MessageCircle className="w-6 h-6" />,
       title: 'Telegram Bot',
-      description: t('currentLanguage') === 'en' ? 'Automatic consultation and application' : 'Avtomatik maslahat va ariza berish',
+      description: t('currentLanguage') === 'en' ? 'Automated consultation and application assistance' : 'Avtomatik maslahat va ariza berish',
       value: '@HumoAgencyAdmission_bot',
       link: 'https://t.me/HumoAgencyAdmission_bot',
       color: 'bg-blue-500'
@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
     {
       icon: <MessageCircle className="w-6 h-6" />,
       title: 'Support',
-      description: t('currentLanguage') === 'en' ? 'Quick help and consultation' : 'Tezkor yordam va maslahat',
+      description: t('currentLanguage') === 'en' ? 'Quick assistance and consultation' : 'Tezkor yordam va maslahat',
       value: '@humoagency_help',
       link: 'https://t.me/humoagency_help',
       color: 'bg-green-500'
@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
     {
       icon: <Instagram className="w-6 h-6" />,
       title: 'Instagram',
-      description: t('currentLanguage') === 'en' ? 'News and success stories' : 'Yangiliklar va muvaffaqiyat hikoyalari',
+      description: t('currentLanguage') === 'en' ? 'Latest news and success stories' : 'Yangiliklar va muvaffaqiyat hikoyalari',
       value: '@humo_agency',
       link: 'https://www.instagram.com/humo_agency',
       color: 'bg-pink-500'
@@ -170,29 +170,25 @@ const Contact: React.FC = () => {
                     <div className="w-10 h-10 bg-white/20 rounded-2xl flex items-center justify-center text-sm font-bold shadow-lg">
                       1
                     </div>
-                    <span>{t('currentLanguage') === 'en' ? 'Book a free consultation session' : 'Bepul maslahat seansini buyurtma qiling'}</span>
-                    <span>{t('currentLanguage') === 'en' ? 'Book a free consultation session' : 'Bepul maslahat seansini buyurtma qiling'}</span>
+                    <span>{t('currentLanguage') === 'en' ? 'Schedule a free consultation session' : 'Bepul maslahat seansini buyurtma qiling'}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-white/20 rounded-2xl flex items-center justify-center text-sm font-bold shadow-lg">
                       2
                     </div>
-                    <span>{t('currentLanguage') === 'en' ? 'Get a list of universities matching your profile' : 'Profilingizga mos universitetlar ro\'yxatini oling'}</span>
-                    <span>{t('currentLanguage') === 'en' ? 'Get a list of universities matching your profile' : 'Profilingizga mos universitetlar ro\'yxatini oling'}</span>
+                    <span>{t('currentLanguage') === 'en' ? 'Receive a personalized list of matching universities' : 'Profilingizga mos universitetlar ro\'yxatini oling'}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-white/20 rounded-2xl flex items-center justify-center text-sm font-bold shadow-lg">
                       3
                     </div>
-                    <span>{t('currentLanguage') === 'en' ? 'Start the document preparation process' : 'Hujjatlarni tayyorlash jarayonini boshlang'}</span>
-                    <span>{t('currentLanguage') === 'en' ? 'Start the document preparation process' : 'Hujjatlarni tayyorlash jarayonini boshlang'}</span>
+                    <span>{t('currentLanguage') === 'en' ? 'Begin the document preparation process' : 'Hujjatlarni tayyorlash jarayonini boshlang'}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-white/20 rounded-2xl flex items-center justify-center text-sm font-bold shadow-lg">
                       4
                     </div>
-                    <span>{t('currentLanguage') === 'en' ? 'Successfully get admitted to US universities' : 'AQSh universitetlariga muvaffaqiyatli qabul qiling'}</span>
-                    <span>{t('currentLanguage') === 'en' ? 'Successfully get admitted to US universities' : 'AQSh universitetlariga muvaffaqiyatli qabul qiling'}</span>
+                    <span>{t('currentLanguage') === 'en' ? 'Successfully gain admission to U.S. universities' : 'AQSh universitetlariga muvaffaqiyatli qabul qiling'}</span>
                   </div>
                 </div>
 

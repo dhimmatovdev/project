@@ -153,8 +153,8 @@ const translations = {
     contact: 'Contact',
     
     // Hero Section
-    heroTitle: 'Top Universities Are Within Your Reach. 🇺🇸 Achieve Your Dream with Humo Agency!',
-    heroSubtitle: 'Get full scholarships to study at top universities in the USA and Europe',
+    heroTitle: 'Top Universities Are Within Your Reach 🇺🇸 — Achieve Your Dream with Humo Agency!',
+    heroSubtitle: 'Secure full scholarships to study at top universities in the USA and Europe',
     getStarted: 'Get Started',
     scholarshipOpportunities: '100% Scholarship Opportunities',
     noSatRequired: 'No SAT Required',
@@ -166,25 +166,25 @@ const translations = {
     
     // About Section
     aboutTitle: 'About Humo Agency',
-    aboutDescription: 'Humo Agency is a trusted organization that helps students get admitted into top universities in the USA and Europe, including securing full scholarships.',
+    aboutDescription: 'Humo Agency is a trusted organization that helps students gain admission to top universities in the USA and Europe while securing full scholarships.',
     aboutFeature1: '100% scholarship opportunities',
     aboutFeature2: 'No SAT required',
-    aboutFeature3: 'IELTS or Duolingo accepted',
-    aboutFeature4: 'Personal University List',
+    aboutFeature3: 'IELTS or Duolingo sufficient',
+    aboutFeature4: 'Personalized university list',
     ourMission: 'Our Mission',
-    missionDescription: 'Humo Agency is dedicated to helping every student achieve their dream of being accepted into U.S. and European universities with full scholarships. Through professional guidance and complete support, we help build a successful future.',
+    missionDescription: 'Humo Agency is dedicated to helping every student achieve their dream of gaining admission to U.S. and European universities with full scholarships. Through professional guidance and comprehensive support, we help you build a successful future.',
     
     // Services Section
     servicesTitle: 'Our Services',
-    service1Title: 'Admission & Scholarship Help',
-    service1Description: 'Complete support for university admission process and finding scholarship opportunities',
+    service1Title: 'Admission & Scholarship Assistance',
+    service1Description: 'Comprehensive support for the university admission process and scholarship opportunities',
     service2Title: 'Visa Interview Preparation',
-    service2Description: 'Professional preparation for F1 visa interview with practical training',
-    service3Title: 'Personal University List',
-    service3Description: 'Customized university list based on your profile and preferences',
+    service2Description: 'Professional F1 visa interview preparation with practical training sessions',
+    service3Title: 'Personalized University List',
+    service3Description: 'Customized university recommendations based on your profile and preferences',
     service4Title: 'Affordable Pricing',
-    service4Description: 'Budget-friendly prices and flexible payment plans for all services',
-    duolingoDescription: 'Online test, results in 48 hours, accepted by 4000+ universities',
+    service4Description: 'Budget-friendly pricing and flexible payment plans for all services',
+    duolingoDescription: 'Online test with results in 48 hours, accepted by 4,000+ universities',
     testPrice: 'Test Fee',
     resultTime: 'Result Time',
     universities: 'Universities',
@@ -192,45 +192,45 @@ const translations = {
     // How It Works
     howItWorksTitle: 'How It Works',
     step1Title: 'Consultation',
-    step1Description: 'Free consultation and goal setting session',
+    step1Description: 'Free consultation and goal-setting session',
     step2Title: 'Document Preparation',
-    step2Description: 'Prepare and review all required documents',
+    step2Description: 'Preparation and review of all required documents',
     step3Title: 'Application Submission',
-    step3Description: 'University Applications and Scholarship Acquisition',
+    step3Description: 'University applications and scholarship acquisition',
     step4Title: 'Visa Preparation',
-    step4Description: 'F1 visa interview preparation and support',
+    step4Description: 'F1 visa interview preparation and ongoing support',
     
     // Success Stories
     successTitle: 'Success Stories',
     
     // Team
     teamTitle: 'Meet Our Team',
-    teamDescription: 'Experienced professional experts who guide you to success',
+    teamDescription: 'Experienced professionals who guide you to success',
     workWithMentors: 'Work with Professional Mentors',
-    mentorSupport: 'Each mentor provides personalized guidance and support for your success',
-    chooseMentor: 'Choose Mentor',
+    mentorSupport: 'Each mentor provides personalized guidance and support to ensure your success',
+    chooseMentor: 'Choose a Mentor',
     
     // Gallery
     galleryTitle: 'Gallery',
-    galleryDescription: 'Success moments of our students and photos from university life',
+    galleryDescription: 'Success stories of our students and glimpses of university life',
     
     // FAQ
     faqTitle: 'Frequently Asked Questions',
-    faqDescription: 'Most frequently asked questions and their answers',
+    faqDescription: 'The most frequently asked questions and their answers',
     
     // Contact
     contactTitle: 'Contact Us',
-    contactDescription: 'Get in touch with our specialists and receive free consultation',
+    contactDescription: 'Connect with our specialists and receive a free consultation',
     applyNow: 'Apply Now',
     
     // Universities
     universitiesTitle: 'Universities & Partnerships',
-    universitiesDescription: 'Partnerships with the best universities in the USA and Europe',
+    universitiesDescription: 'Partnerships with top universities in the USA and Europe',
     partnerUniversitiesTitle: 'Partner Universities',
     fieldsOfStudyTitle: 'Fields of Study',
     
     // Footer
-    footerDescription: 'Your trusted partner in achieving your dreams.',
+    footerDescription: 'Your trusted partner in achieving your academic dreams.',
     navigation: 'Navigation',
     usefulLinks: 'Useful Links',
     gpaCalculator: 'GPA Calculator',
@@ -246,27 +246,27 @@ const translations = {
     // Documents
     documentsTitle: 'Required Documents',
     passport: 'Foreign Passport',
-    diploma: 'High School/University Diploma',
+    diploma: 'High School or University Diploma',
     transcripts: 'Academic Transcripts',
-    englishTest: 'English Test (IELTS/TOEFL/Duolingo)',
+    englishTest: 'English Proficiency Test (IELTS/TOEFL/Duolingo)',
     personalStatement: 'Personal Statement',
     recommendationLetters: 'Recommendation Letters',
-    resume: 'Resume (for Graduate level)',
+    resume: 'Resume (for graduate programs)',
     
     // Admission Cycles
     admissionTitle: 'Admission Cycles',
-    fallAdmission: 'Fall Admission (Kuzgi Qabul)',
-    springAdmission: 'Winter Admission (Qishki Qabul)',
+    fallAdmission: 'Fall Admission',
+    springAdmission: 'Spring Admission',
     fallDescription: 'Document submission from August to March',
     springDescription: 'Document submission from May to November',
     
     // Team
     teamTitle: 'Meet Our Team',
-    teamDescription: 'Experienced professional experts who guide you to success',
+    teamDescription: 'Experienced professionals who guide you to success',
     workWithMentors: 'Work with Professional Mentors',
-    mentorSupport: 'Each mentor provides personalized guidance and support for your success',
-    chooseMentor: 'Choose Mentor',
-    founderBio: 'Co-founder of Humo Agency. Accepted to over 30 universities worldwide and secured over $1 million in scholarships. Has helped 100+ students win 90% to full-tuition scholarships and successfully prepare for their study abroad journeys. Actively involved in national and international conferences, forums, festivals, and Model United Nations programs.',
+    mentorSupport: 'Each mentor provides personalized guidance and support to ensure your success',
+    chooseMentor: 'Choose a Mentor',
+    founderBio: 'Co-founder of Humo Agency. Accepted to over 30 universities worldwide and secured over $1 million in scholarships. Has helped 100+ students secure 90% to full-tuition scholarships and successfully prepare for their study abroad journeys. Actively participates in national and international conferences, forums, festivals, and Model United Nations programs.',
     founder: 'Founder'
   }
 };
