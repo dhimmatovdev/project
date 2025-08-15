@@ -218,6 +218,24 @@ const translations = {
     faqTitle: 'Frequently Asked Questions',
     faqDescription: 'The most frequently asked questions and their answers',
     
+    // FAQ Questions and Answers
+    faq1Question: 'How can I get a 100% scholarship?',
+    faq1Answer: 'To get a 100% scholarship at US universities, academic performance, English proficiency, and proper document preparation are crucial. Our mentors help you find the most suitable universities and scholarship opportunities. Typically, a GPA of 3.5+, IELTS 6.5+, or Duolingo 95+ is required.',
+    faq2Question: 'What documents are required?',
+    faq2Answer: 'Main documents include: foreign passport, educational documents (diploma, certificate), transcript, English test results (IELTS/TOEFL/Duolingo), personal statement, recommendation letters, CV (for graduate programs). Each university may have additional specific requirements.',
+    faq3Question: 'Is taking the SAT test mandatory?',
+    faq3Answer: 'No, most universities do not require the SAT test. We specialize in working with universities that do not require SAT. An English proficiency test (IELTS, TOEFL, or Duolingo) is sufficient.',
+    faq4Question: 'How should I prepare for the visa interview?',
+    faq4Answer: 'The visa interview is one of the most important steps. We provide mock interview sessions, preparation for the most frequently asked questions, proper document organization, and confidence building. We have a 95% visa success rate.',
+    faq5Question: 'How long does the process take?',
+    faq5Answer: 'The complete process takes 6-12 months. Documents for fall semester are submitted from August to March, and for spring semester from May to November. Starting as early as possible is recommended.',
+    faq6Question: 'What is the cost of services?',
+    faq6Answer: 'Our service costs vary depending on goals and required services. We offer affordable prices and flexible payment plans. For detailed information, you can discuss during a free consultation session.',
+    faq7Question: 'Information about Duolingo test',
+    faq7Answer: 'Duolingo English Test is an online English proficiency test. It costs $59, results are ready within 48 hours, and is accepted by 5000+ universities. The test is taken online from home and is very convenient.',
+    faq8Question: 'How is GPA calculated?',
+    faq8Answer: 'GPA (Grade Point Average) is the average grade indicator. A special calculator is used to convert Uzbek grades to the American system. It is usually calculated on a 4.0 scale and a 3.5+ is recommended.',
+    
     // Contact
     contactTitle: 'Contact Us',
     contactDescription: 'Connect with our specialists and receive a free consultation',

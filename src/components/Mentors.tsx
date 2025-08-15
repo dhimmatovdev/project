@@ -116,7 +116,7 @@ const Mentors: React.FC = () => {
             </p>
             <button className="bg-gradient-to-r from-white to-gray-50 text-orange-600 px-10 py-4 rounded-2xl font-semibold hover:from-gray-50 hover:to-white transition-all duration-300 shadow-xl hover:shadow-2xl">
               <span onClick={() => setIsModalOpen(true)} className="cursor-pointer">
-                Bepul Konsultatsiyaga yoziling
+                {t('currentLanguage') === 'en' ? 'Schedule Free Consultation' : 'Bepul Konsultatsiyaga yoziling'}
               </span>
             </button>
           </div>

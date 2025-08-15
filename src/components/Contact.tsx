@@ -194,7 +194,7 @@ const Contact: React.FC = () => {
 
                 <button className="w-full bg-gradient-to-r from-white to-gray-50 text-orange-600 py-5 rounded-2xl font-bold text-lg hover:from-gray-50 hover:to-white transition-all duration-300 shadow-xl hover:shadow-2xl">
                   <span onClick={() => setIsModalOpen(true)} className="cursor-pointer">
-                    Bepul Konsultatsiyaga yoziling
+                    {t('currentLanguage') === 'en' ? 'Schedule Free Consultation' : 'Bepul Konsultatsiyaga yoziling'}
                   </span>
                 </button>
               </div>

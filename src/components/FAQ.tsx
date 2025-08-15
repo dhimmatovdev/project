@@ -11,43 +11,43 @@ const FAQ: React.FC = () => {
   const faqs = [
     {
       id: 1,
-      question: '100% grantni qanday olish mumkin?',
-      answer: 'AQSh universitetlarida 100% grant olish uchun akademik natijalar, ingliz tili darajasi va to\'g\'ri hujjat tayyorlash muhim. Bizning mentorlar sizga eng mos universitetlarni tanlash va grant imkoniyatlarini topishda yordam beradi. Odatda GPA 3.5+, IELTS 6.5+ yoki Duolingo 95+ ball talab qilinadi.'
+      question: t('currentLanguage') === 'en' ? t('faq1Question') : '100% grantni qanday olish mumkin?',
+      answer: t('currentLanguage') === 'en' ? t('faq1Answer') : 'AQSh universitetlarida 100% grant olish uchun akademik natijalar, ingliz tili darajasi va to\'g\'ri hujjat tayyorlash muhim. Bizning mentorlar sizga eng mos universitetlarni tanlash va grant imkoniyatlarini topishda yordam beradi. Odatda GPA 3.5+, IELTS 6.5+ yoki Duolingo 95+ ball talab qilinadi.'
     },
     {
       id: 2,
-      question: 'Qanday hujjatlar talab qilinadi?',
-      answer: 'Asosiy hujjatlar: xorijiy pasport, ta\'lim hujjatlari (diploma, attestat), baholar daftarchasi, ingliz tili testi natijalari (IELTS/TOEFL/Duolingo), shaxsiy bayonot, tavsiya xatlari, CV (magistratura uchun). Har bir universitet o\'zining qo\'shimcha talablariga ega bo\'lishi mumkin.'
+      question: t('currentLanguage') === 'en' ? t('faq2Question') : 'Qanday hujjatlar talab qilinadi?',
+      answer: t('currentLanguage') === 'en' ? t('faq2Answer') : 'Asosiy hujjatlar: xorijiy pasport, ta\'lim hujjatlari (diploma, attestat), baholar daftarchasi, ingliz tili testi natijalari (IELTS/TOEFL/Duolingo), shaxsiy bayonot, tavsiya xatlari, CV (magistratura uchun). Har bir universitet o\'zining qo\'shimcha talablariga ega bo\'lishi mumkin.'
     },
     {
       id: 3,
-      question: 'SAT test topshirish majburiyatmi?',
-      answer: 'Yo\'q, ko\'pchilik universitetlar SAT testini majburiy qilmaydi. Biz SAT talab qilmaydigan universitetlar bilan ishlashga ixtisoslashganmiz. Ingliz tili testi (IELTS, TOEFL yoki Duolingo) etarli.'
+      question: t('currentLanguage') === 'en' ? t('faq3Question') : 'SAT test topshirish majburiyatmi?',
+      answer: t('currentLanguage') === 'en' ? t('faq3Answer') : 'Yo\'q, ko\'pchilik universitetlar SAT testini majburiy qilmaydi. Biz SAT talab qilmaydigan universitetlar bilan ishlashga ixtisoslashganmiz. Ingliz tili testi (IELTS, TOEFL yoki Duolingo) etarli.'
     },
     {
       id: 4,
-      question: 'Viza suhbatiga qanday tayyorlanish kerak?',
-      answer: 'Viza suhbati eng muhim bosqichlardan biri. Biz mock interview sessiyalari, eng ko\'p so\'raladigan savollarni tayyorlash, hujjatlarni to\'g\'ri tartibga solish va ishonch hosil qilish bo\'yicha to\'liq tayyorgarlik beramiz. Bizning 95% viza muvaffaqiyat darajamiz bor.'
+      question: t('currentLanguage') === 'en' ? t('faq4Question') : 'Viza suhbatiga qanday tayyorlanish kerak?',
+      answer: t('currentLanguage') === 'en' ? t('faq4Answer') : 'Viza suhbati eng muhim bosqichlardan biri. Biz mock interview sessiyalari, eng ko\'p so\'raladigan savollarni tayyorlash, hujjatlarni to\'g\'ri tartibga solish va ishonch hosil qilish bo\'yicha to\'liq tayyorgarlik beramiz. Bizning 95% viza muvaffaqiyat darajamiz bor.'
     },
     {
       id: 5,
-      question: 'Jarayon qancha vaqt oladi?',
-      answer: 'To\'liq jarayon 6-12 oy vaqt oladi. Kuz semestri uchun hujjatlar avgust-mart oylarida, bahor semestri uchun may-noyabr oylarida topshiriladi. Iloji boricha erta boshlash tavsiya etiladi.'
+      question: t('currentLanguage') === 'en' ? t('faq5Question') : 'Jarayon qancha vaqt oladi?',
+      answer: t('currentLanguage') === 'en' ? t('faq5Answer') : 'To\'liq jarayon 6-12 oy vaqt oladi. Kuz semestri uchun hujjatlar avgust-mart oylarida, bahor semestri uchun may-noyabr oylarida topshiriladi. Iloji boricha erta boshlash tavsiya etiladi.'
     },
     {
       id: 6,
-      question: 'Xizmat narxi qancha?',
-      answer: 'Bizning xizmatlar narxi maqsad va kerakli xizmatlar hajmiga qarab o\'zgaradi. Biz hamyonbop narxlar va moslashuvchan to\'lov rejalari taklif qilamiz. Batafsil ma\'lumot uchun bepul maslahat seansida gaplashishingiz mumkin.'
+      question: t('currentLanguage') === 'en' ? t('faq6Question') : 'Xizmat narxi qancha?',
+      answer: t('currentLanguage') === 'en' ? t('faq6Answer') : 'Bizning xizmatlar narxi maqsad va kerakli xizmatlar hajmiga qarab o\'zgaradi. Biz hamyonbop narxlar va moslashuvchan to\'lov rejalari taklif qilamiz. Batafsil ma\'lumot uchun bepul maslahat seansida gaplashishingiz mumkin.'
     },
     {
       id: 7,
-      question: 'Duolingo test haqida ma\'lumot',
-      answer: 'Duolingo English Test - bu onlayn ingliz tili testi. Narxi $59, natija 48 soat ichida tayyor bo\'ladi va 5000+ universitet tomonidan qabul qilinadi. Test uydan online tarzda topshiriladi va juda qulay.'
+      question: t('currentLanguage') === 'en' ? t('faq7Question') : 'Duolingo test haqida ma\'lumot',
+      answer: t('currentLanguage') === 'en' ? t('faq7Answer') : 'Duolingo English Test - bu onlayn ingliz tili testi. Narxi $59, natija 48 soat ichida tayyor bo\'ladi va 5000+ universitet tomonidan qabul qilinadi. Test uydan online tarzda topshiriladi va juda qulay.'
     },
     {
       id: 8,
-      question: 'GPA qanday hisoblanadi?',
-      answer: 'GPA (Grade Point Average) - bu o\'rtacha baho ko\'rsatkichi. O\'zbekiston baholarini Amerika tizimiga o\'girish uchun maxsus kalkulyator ishlatiladi. Odatda 4.0 tizimda hisoblanadi va 3.5+ dan yuqori bo\'lishi tavsiya etiladi.'
+      question: t('currentLanguage') === 'en' ? t('faq8Question') : 'GPA qanday hisoblanadi?',
+      answer: t('currentLanguage') === 'en' ? t('faq8Answer') : 'GPA (Grade Point Average) - bu o\'rtacha baho ko\'rsatkichi. O\'zbekiston baholarini Amerika tizimiga o\'girish uchun maxsus kalkulyator ishlatiladi. Odatda 4.0 tizimda hisoblanadi va 3.5+ dan yuqori bo\'lishi tavsiya etiladi.'
     }
   ];
 
@@ -106,14 +106,14 @@ const FAQ: React.FC = () => {
           <div className="mt-12 text-center">
             <div className="bg-gradient-to-br from-orange-400 via-orange-500 to-red-500 rounded-3xl p-8 text-white shadow-2xl">
               <h3 className="text-2xl font-bold mb-4">
-                Ko\'proq Savol Bormi?
+                {t('currentLanguage') === 'en' ? 'Have More Questions?' : 'Ko\'proq Savol Bormi?'}
               </h3>
               <p className="text-lg mb-6">
-                Bizning mutaxassislar bilan to\'g\'ridan-to\'g\'ri gaplashing va barcha savollaringizga javob oling
+                {t('currentLanguage') === 'en' ? 'Speak directly with our specialists and get answers to all your questions' : 'Bizning mutaxassislar bilan to\'g\'ridan-to\'g\'ri gaplashing va barcha savollaringizga javob oling'}
               </p>
               <button className="bg-gradient-to-r from-white to-gray-50 text-orange-600 px-10 py-4 rounded-2xl font-semibold hover:from-gray-50 hover:to-white transition-all duration-300 shadow-xl hover:shadow-2xl">
                 <span onClick={() => setIsModalOpen(true)} className="cursor-pointer">
-                  Bepul Konsultatsiyaga yoziling
+                  {t('currentLanguage') === 'en' ? 'Schedule Free Consultation' : 'Bepul Konsultatsiyaga yoziling'}
                 </span>
               </button>
             </div>
