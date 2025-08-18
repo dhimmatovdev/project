@@ -74,7 +74,7 @@ const Hero: React.FC = () => {
           {/* Badge */}
 
           {/* Main Title */}
-          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-bold text-white mb-6 leading-tight pt-24 md:pt-0">
+          <h1 className="text-lg sm:text-xl md:text-2xl lg:text-4xl font-bold text-white mb-6 leading-tight pt-28 md:pt-0">
             {t('heroTitle')}
           </h1>
 

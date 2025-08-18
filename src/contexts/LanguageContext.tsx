@@ -25,15 +25,15 @@ const translations = {
     
     // Hero Section
     heroTitle: 'Top Universities Are Within Your Reach — Achieve Your Dream with Humo Agency!',
-    heroSubtitle: 'AQSh va Yevropa universitetlariga to\'liq grant bilan o\'qish imkoniyati',
+    heroSubtitle: 'Study at top US and European universities with full scholarship opportunities',
     getStarted: 'Boshlash',
-    scholarshipOpportunities: '100% Grant Imkoniyatlari',
-    noSatRequired: 'SAT talab qilinmaydi',
-    ieltsOrDuolingo: 'IELTS yoki Duolingo',
-    f1VisaHelp: 'F1 Visa Yordami',
-    successfulStudents: 'Muvaffaqiyatli Talabalar',
-    partnerUniversities: 'Hamkor Universitetlar',
-    visaSuccess: 'Viza Muvaffaqiyati',
+    scholarshipOpportunities: '100% Scholarship Opportunities',
+    noSatRequired: 'No SAT Required',
+    ieltsOrDuolingo: 'IELTS or Duolingo',
+    f1VisaHelp: 'F1 Visa Assistance',
+    successfulStudents: 'Successful Students',
+    partnerUniversities: 'Partner Universities',
+    visaSuccess: 'Visa Success Rate',
     
     // About Section
     aboutTitle: 'Humo Agency Haqida',
