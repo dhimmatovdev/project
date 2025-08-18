@@ -74,25 +74,25 @@ const Hero: React.FC = () => {
           {/* Badge */}
 
           {/* Main Title */}
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight pt-20 md:pt-0">
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-bold text-white mb-6 leading-tight pt-24 md:pt-0">
             {t('heroTitle')}
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg sm:text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-white/90 mb-8 leading-relaxed">
             {t('heroSubtitle')}
           </p>
 
           {/* Features */}
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <div className="bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-md rounded-2xl px-6 py-3 shadow-xl">
-              <span className="text-white text-sm font-medium">✓ {t('currentLanguage') === 'en' ? 'No SAT Required' : 'SAT talab qilinmaydi'}</span>
+              <span className="text-white text-sm font-medium">✓ {t('noSatRequired')}</span>
             </div>
             <div className="bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-md rounded-2xl px-6 py-3 shadow-xl">
-              <span className="text-white text-sm font-medium">✓ {t('currentLanguage') === 'en' ? 'IELTS or Duolingo' : 'IELTS yoki Duolingo'}</span>
+              <span className="text-white text-sm font-medium">✓ {t('ieltsOrDuolingo')}</span>
             </div>
             <div className="bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-md rounded-2xl px-6 py-3 shadow-xl">
-              <span className="text-white text-sm font-medium">✓ {t('currentLanguage') === 'en' ? 'F1 Visa Support' : 'F1 Visa Yordami'}</span>
+              <span className="text-white text-sm font-medium">✓ {t('f1VisaHelp')}</span>
             </div>
           </div>
 
@@ -101,7 +101,7 @@ const Hero: React.FC = () => {
             onClick={() => setIsModalOpen(true)}
             className="group inline-flex items-center space-x-2 bg-gradient-to-r from-orange-500 to-red-500 text-white px-10 py-5 rounded-2xl font-semibold text-lg hover:from-orange-600 hover:to-red-600 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-3xl"
           >
-            <span>{t('currentLanguage') === 'en' ? 'Schedule Free Consultation' : 'Bepul Konsultatsiyaga yoziling'}</span>
+            <span>{t('bookConsultation')}</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
 

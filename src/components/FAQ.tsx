@@ -106,14 +106,14 @@ const FAQ: React.FC = () => {
           <div className="mt-12 text-center">
             <div className="bg-gradient-to-br from-orange-400 via-orange-500 to-red-500 rounded-3xl p-8 text-white shadow-2xl">
               <h3 className="text-2xl font-bold mb-4">
-                {t('currentLanguage') === 'en' ? 'Have More Questions?' : 'Ko\'proq Savol Bormi?'}
+                {t('currentLanguage') === 'en' ? 'Have More Questions?' : 'Ko\'proq Savollar Bormi?'}
               </h3>
               <p className="text-lg mb-6">
-                {t('currentLanguage') === 'en' ? 'Speak directly with our specialists and get answers to all your questions' : 'Bizning mutaxassislar bilan to\'g\'ridan-to\'g\'ri gaplashing va barcha savollaringizga javob oling'}
+                {t('currentLanguage') === 'en' ? 'Speak directly with our specialists and get answers to all your questions' : 'Bizning mutaxassislar bilan to\'g\'ridan-to\'g\'ri gaplashib, barcha savollaringizga javob oling'}
               </p>
               <button className="bg-gradient-to-r from-white to-gray-50 text-orange-600 px-10 py-4 rounded-2xl font-semibold hover:from-gray-50 hover:to-white transition-all duration-300 shadow-xl hover:shadow-2xl">
                 <span onClick={() => setIsModalOpen(true)} className="cursor-pointer">
-                  {t('currentLanguage') === 'en' ? 'Schedule Free Consultation' : 'Bepul Konsultatsiyaga yoziling'}
+                  {t('bookConsultation')}
                 </span>
               </button>
             </div>

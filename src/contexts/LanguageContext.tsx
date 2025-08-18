@@ -18,14 +18,13 @@ const translations = {
     home: 'Bosh sahifa',
     about: 'Biz haqimizda',
     services: 'Xizmatlar',
-    universities: 'Universitetlar',
     mentors: 'Mentorlar',
     gallery: 'Galereya',
     faq: 'Savollar',
     contact: 'Aloqa',
     
     // Hero Section
-    heroTitle: 'Orzuingizga — Humo Agency bilan erishing!',
+    heroTitle: 'Top Universities Are Within Your Reach — Achieve Your Dream with Humo Agency!',
     heroSubtitle: 'AQSh va Yevropa universitetlariga to\'liq grant bilan o\'qish imkoniyati',
     getStarted: 'Boshlash',
     scholarshipOpportunities: '100% Grant Imkoniyatlari',
@@ -38,7 +37,7 @@ const translations = {
     
     // About Section
     aboutTitle: 'Humo Agency Haqida',
-    aboutDescription: 'Humo Agency - talabalarni AQSh va Yevropa\'ning eng yaxshi universitetlariga qabul qilish va to\'liq grantlar olishda yordam beradigan ishonchli tashkilot.',
+    aboutDescription: 'Humo Agency - AQSh va Yevropa\'ning eng yaxshi universitetlariga to\'liq grant bilan o\'qish imkoniyati.',
     aboutFeature1: '100% grant imkoniyatlari',
     aboutFeature2: 'SAT talab qilinmaydi',
     aboutFeature3: 'IELTS yoki Duolingo etarli',
@@ -48,6 +47,7 @@ const translations = {
     
     // Services Section
     servicesTitle: 'Bizning Xizmatlarimiz',
+    servicesDescription: 'Professional xizmatlar orqali AQSh universitetlariga qabul va grant olish jarayonida to\'liq yordam',
     service1Title: 'Qabul va Grant Yordami',
     service1Description: 'AQSh universitetlariga qabul jarayonida to\'liq yordam va grant imkoniyatlarini topish',
     service2Title: 'Viza Suhbati Tayyorligi',
@@ -56,13 +56,14 @@ const translations = {
     service3Description: 'Sizning profilingizga mos keladigan universitetlar ro\'yxatini tayyorlash',
     service4Title: 'Arzon Narxlar',
     service4Description: 'Barcha xizmatlar uchun hamyonbop narxlar va to\'lov rejalari',
-    duolingoDescription: 'Online imtihon, 48 soat ichida natija, 4000+ universitet tomonidan qabul qilinadigan test',
+    duolingoDescription: 'Online imtihon, 48 soat ichida natija, 5000+ universitet tomonidan qabul qilinadigan test',
     testPrice: 'Test narxi',
     resultTime: 'Natija vaqti',
-    universities: 'Universitet',
+    universities: 'Universitetlar',
     
     // How It Works
     howItWorksTitle: 'Qanday Ishlaydi',
+    howItWorksDescription: '4 oddiy qadam orqali AQSh universitetlariga qabul va grant olish jarayoni',
     step1Title: 'Maslahat',
     step1Description: 'Bepul konsultatsiya va maqsadlaringizni aniqlash',
     step2Title: 'Hujjat Tayyorlash',
@@ -74,6 +75,7 @@ const translations = {
     
     // Success Stories
     successTitle: 'Muvaffaqiyat Hikoyalari',
+    successDescription: 'Bizning talabalarning muvaffaqiyat hikoyalari va AQSh universitetlaridagi yutuqlari',
     
     // Team
     teamTitle: 'Meet Our Team',
@@ -93,13 +95,11 @@ const translations = {
     // Contact
     contactTitle: 'Biz Bilan Bog\'laning',
     contactDescription: 'Bizning mutaxassislar bilan bog\'laning va bepul maslahat oling',
+    getInTouch: 'Biz Bilan Bog\'laning',
+    officeInformation: 'Ofis Ma\'lumotlari',
+    ourAddress: 'Bizning Manzilimiz',
+    bookConsultation: 'Bepul Konsultatsiyaga yoziling',
     applyNow: 'Hujjat Topshirish',
-    
-    // Universities
-    universitiesTitle: 'Universities & Partnerships',
-    universitiesDescription: 'AQSh va Yevropa\'ning eng yaxshi universitetlari bilan hamkorlik',
-    partnerUniversitiesTitle: 'Hamkor Universitetlar',
-    fieldsOfStudyTitle: 'Ta\'lim Yo\'nalishlari',
     
     // Footer
     footerDescription: 'Sizning orzuyingizga eltuvchi ishonchli hamrohingiz.',
@@ -146,7 +146,6 @@ const translations = {
     home: 'Home',
     about: 'About',
     services: 'Services',
-    universities: 'Universities',
     mentors: 'Mentors',
     gallery: 'Gallery',
     faq: 'FAQ',
@@ -154,28 +153,29 @@ const translations = {
     
     // Hero Section
     heroTitle: 'Top Universities Are Within Your Reach 🇺🇸 — Achieve Your Dream with Humo Agency!',
-    heroSubtitle: 'Secure full scholarships to study at top universities in the USA and Europe',
+    heroSubtitle: 'Full scholarship opportunities at top US universities',
     getStarted: 'Get Started',
-    scholarshipOpportunities: '100% Scholarship Opportunities',
+    scholarshipOpportunities: '100% scholarship opportunities',
     noSatRequired: 'No SAT Required',
-    ieltsOrDuolingo: 'IELTS or Duolingo',
-    f1VisaHelp: 'F1 Visa Help',
+    ieltsOrDuolingo: 'Only IELTS or Duolingo test required',
+    f1VisaHelp: 'F1 Visa Support',
     successfulStudents: 'Successful Students',
     partnerUniversities: 'Partner Universities',
     visaSuccess: 'Visa Success',
     
     // About Section
     aboutTitle: 'About Humo Agency',
-    aboutDescription: 'Humo Agency is a trusted organization that helps students gain admission to top universities in the USA and Europe while securing full scholarships.',
-    aboutFeature1: '100% scholarship opportunities',
-    aboutFeature2: 'No SAT required',
-    aboutFeature3: 'IELTS or Duolingo sufficient',
-    aboutFeature4: 'Personalized university list',
+    aboutDescription: 'Full scholarship opportunities at top US universities.',
+    aboutFeature1: 'Full scholarship opportunities at top US universities',
+    aboutFeature2: 'No SAT Required',
+    aboutFeature3: 'Only IELTS or Duolingo test required',
+    aboutFeature4: 'A list of universities that match your profile',
     ourMission: 'Our Mission',
-    missionDescription: 'Humo Agency is dedicated to helping every student achieve their dream of gaining admission to U.S. and European universities with full scholarships. Through professional guidance and comprehensive support, we help you build a successful future.',
+    missionDescription: 'Full support from professional mentors',
     
     // Services Section
     servicesTitle: 'Our Services',
+    servicesDescription: 'Complete assistance in admission and scholarship application process for US universities through professional services',
     service1Title: 'Admission & Scholarship Assistance',
     service1Description: 'Comprehensive support for the university admission process and scholarship opportunities',
     service2Title: 'Visa Interview Preparation',
@@ -184,13 +184,14 @@ const translations = {
     service3Description: 'Customized university recommendations based on your profile and preferences',
     service4Title: 'Affordable Pricing',
     service4Description: 'Budget-friendly pricing and flexible payment plans for all services',
-    duolingoDescription: 'Online test with results in 48 hours, accepted by 4,000+ universities',
+    duolingoDescription: 'Online test, results within 48 hours, accepted by 5000+ universities',
     testPrice: 'Test Fee',
     resultTime: 'Result Time',
     universities: 'Universities',
     
     // How It Works
     howItWorksTitle: 'How It Works',
+    howItWorksDescription: 'The process of admission and obtaining scholarships for US universities in 4 simple steps',
     step1Title: 'Consultation',
     step1Description: 'Free consultation and goal-setting session',
     step2Title: 'Document Preparation',
@@ -202,6 +203,7 @@ const translations = {
     
     // Success Stories
     successTitle: 'Success Stories',
+    successDescription: 'Our students\' success stories and achievements in US universities',
     
     // Team
     teamTitle: 'Meet Our Team',
@@ -237,15 +239,13 @@ const translations = {
     faq8Answer: 'GPA (Grade Point Average) is the average grade indicator. A special calculator is used to convert Uzbek grades to the American system. It is usually calculated on a 4.0 scale and a 3.5+ is recommended.',
     
     // Contact
-    contactTitle: 'Contact Us',
+    contactTitle: 'Get in Touch',
     contactDescription: 'Connect with our specialists and receive a free consultation',
+    getInTouch: 'Get in Touch',
+    officeInformation: 'Office Information',
+    ourAddress: 'Our Address',
+    bookConsultation: 'Book a Free Consultation',
     applyNow: 'Apply Now',
-    
-    // Universities
-    universitiesTitle: 'Universities & Partnerships',
-    universitiesDescription: 'Partnerships with top universities in the USA and Europe',
-    partnerUniversitiesTitle: 'Partner Universities',
-    fieldsOfStudyTitle: 'Fields of Study',
     
     // Footer
     footerDescription: 'Your trusted partner in achieving your academic dreams.',

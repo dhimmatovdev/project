@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            {t('contactTitle')}
+            {t('getInTouch')}
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             {t('contactDescription')}
@@ -59,7 +59,7 @@ const Contact: React.FC = () => {
             {/* Contact Methods */}
             <div className="space-y-8">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">
-                {t('currentLanguage') === 'en' ? 'Contact Us' : 'Biz Bilan Bog\'laning'}
+                {t('getInTouch')}
               </h3>
               
               <div className="space-y-6">
@@ -93,7 +93,7 @@ const Contact: React.FC = () => {
               {/* Office Info */}
               <div className="mt-8 p-6 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-3xl shadow-xl">
                 <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                  {t('currentLanguage') === 'en' ? 'Office Information' : 'Ofis Ma\'lumotlari'}
+                  {t('officeInformation')}
                 </h4>
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
@@ -121,7 +121,7 @@ const Contact: React.FC = () => {
               <div className="bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-3xl shadow-xl overflow-hidden">
                 <div className="p-6 border-b border-gray-200 dark:border-gray-700">
                   <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
-                    {t('currentLanguage') === 'en' ? 'Our Address' : 'Bizning Manzilimiz'}
+                    {t('ourAddress')}
                   </h4>
                   <div className="flex items-center space-x-3">
                     <MapPin className="w-5 h-5 text-orange-500" />
@@ -194,7 +194,7 @@ const Contact: React.FC = () => {
 
                 <button className="w-full bg-gradient-to-r from-white to-gray-50 text-orange-600 py-5 rounded-2xl font-bold text-lg hover:from-gray-50 hover:to-white transition-all duration-300 shadow-xl hover:shadow-2xl">
                   <span onClick={() => setIsModalOpen(true)} className="cursor-pointer">
-                    {t('currentLanguage') === 'en' ? 'Schedule Free Consultation' : 'Bepul Konsultatsiyaga yoziling'}
+                    {t('bookConsultation')}
                   </span>
                 </button>
               </div>
@@ -205,6 +205,15 @@ const Contact: React.FC = () => {
                   {t('usefulLinks')}
                 </h4>
                 <div className="space-y-3">
+                  <a
+                    href="https://t.me/humoagency"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-between p-4 bg-gradient-to-r from-gray-50 to-white dark:from-gray-800 dark:to-gray-700 rounded-2xl hover:from-gray-100 hover:to-gray-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 shadow-lg hover:shadow-xl"
+                  >
+                    <span className="text-gray-700 dark:text-gray-300">Telegram Channel</span>
+                    <ExternalLink className="w-4 h-4 text-gray-400" />
+                  </a>
                   <a
                     href="https://oakland.edu/gpa-calculator/"
                     target="_blank"

@@ -13,7 +13,7 @@ const Testimonials: React.FC = () => {
       university: 'Harvard University',
       scholarship: '$70,000 grant',
       image: 'https://images.pexels.com/photos/3786126/pexels-photo-3786126.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'Humo Agency orqali Harvard universitetiga to\'liq grant bilan qabul qilindim. Mentorlar professional yordam berishdi.',
+      quote: t('currentLanguage') === 'en' ? 'I was admitted to Harvard University with a full scholarship through Humo Agency. The mentors provided professional support.' : 'Humo Agency orqali Harvard universitetiga to\'liq grant bilan qabul qilindim. Mentorlar professional yordam berishdi.',
       rating: 5
     },
     {
@@ -22,7 +22,7 @@ const Testimonials: React.FC = () => {
       university: 'MIT',
       scholarship: '$65,000 grant',
       image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'MIT\'ga qabul qilish jarayonida Humo Agency\'ning yordami juda muhim edi. Viza suhbatiga tayyorgarlik ajoyib edi.',
+      quote: t('currentLanguage') === 'en' ? 'Humo Agency\'s assistance was crucial in my admission process to MIT. The visa interview preparation was excellent.' : 'MIT\'ga qabul qilish jarayonida Humo Agency\'ning yordami juda muhim edi. Viza suhbatiga tayyorgarlik ajoyib edi.',
       rating: 5
     },
     {
@@ -31,7 +31,7 @@ const Testimonials: React.FC = () => {
       university: 'Stanford University',
       scholarship: '$75,000 grant',
       image: 'https://images.pexels.com/photos/3762800/pexels-photo-3762800.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'Stanford\'ga qabul qilish orzuim edi. Humo Agency bu orzuimni amalga oshirishga yordam berdi.',
+      quote: t('currentLanguage') === 'en' ? 'Getting admitted to Stanford was my dream. Humo Agency helped me make this dream come true.' : 'Stanford\'ga qabul qilish orzuim edi. Humo Agency bu orzuimni amalga oshirishga yordam berdi.',
       rating: 5
     },
     {
@@ -40,7 +40,7 @@ const Testimonials: React.FC = () => {
       university: 'UC Berkeley',
       scholarship: '$60,000 grant',
       image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'Professional maslahat va to\'liq qo\'llab-quvvatlash tufayli UC Berkeley\'ga muvaffaqiyatli qabul qilindim.',
+      quote: t('currentLanguage') === 'en' ? 'Thanks to professional advice and full support, I was successfully admitted to UC Berkeley.' : 'Professional maslahat va to\'liq qo\'llab-quvvatlash tufayli UC Berkeley\'ga muvaffaqiyatli qabul qilindim.',
       rating: 5
     }
   ];
@@ -63,7 +63,7 @@ const Testimonials: React.FC = () => {
             {t('successTitle')}
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            {t('currentLanguage') === 'en' ? 'Success stories and achievements of our students at U.S. universities' : 'Bizning talabalarning muvaffaqiyat hikoyalari va AQSh universitetlaridagi yutuqlari'}
+            {t('successDescription')}
           </p>
         </div>
 
