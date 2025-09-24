@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.humoagency.com/sitemap.xml
