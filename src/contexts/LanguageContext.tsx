@@ -76,6 +76,10 @@ const translations = {
     // Success Stories
     successTitle: 'Muvaffaqiyat Hikoyalari',
     successDescription: 'Bizning talabalarning muvaffaqiyat hikoyalari va AQSh universitetlaridagi yutuqlari',
+
+    // Visa Success
+    visaSuccessTitle: 'Viza Muvaffaqiyatlari',
+    visaSuccessDescription: 'Humo Agency orqali viza olgan talabalarimizning haqiqiy muvaffaqiyat hikoyalari',
     
     // Team
     teamTitle: 'Meet Our Team',
@@ -131,13 +135,8 @@ const translations = {
     springAdmission: 'Qishki Qabul',
     fallDescription: 'Avgustdan martgacha hujjat topshirish',
     springDescription: 'Maydan noyabrgacha hujjat topshirish',
-    
+
     // Team
-    teamTitle: 'Bizning Jamoa',
-    teamDescription: 'Tajribali professional ekspertlar sizni muvaffaqiyatga olib boradi',
-    workWithMentors: 'Professional Mentorlar Bilan Ishlang',
-    mentorSupport: 'Har bir mentor sizning muvaffaqiyatingiz uchun shaxsiy maslahat va qo\'llab-quvvatlash beradi',
-    chooseMentor: 'Mentor Tanlash',
     founderBio: 'Humo Agency hammuassisi. Dunyo bo\'ylab 30+ universitetga qabul qilingan va 1 million dollardan ortiq grant yutgan. 100+ talabaga 90% dan to\'liq o\'qish grantini yutishda va chet elda o\'qish sayohatlariga muvaffaqiyatli tayyorgarlik ko\'rishda yordam bergan. Milliy va xalqaro konferensiyalar, forumlar, festivallar va Model Birlashgan Millatlar dasturlarida faol ishtirok etadi.',
     founder: 'Asoschisi'
   },
@@ -204,6 +203,10 @@ const translations = {
     // Success Stories
     successTitle: 'Success Stories',
     successDescription: 'Our students\' success stories and achievements in US universities',
+
+    // Visa Success
+    visaSuccessTitle: 'Visa Success Stories',
+    visaSuccessDescription: 'Real success stories of our students who obtained visas through Humo Agency',
     
     // Team
     teamTitle: 'Meet Our Team',
@@ -277,13 +280,8 @@ const translations = {
     springAdmission: 'Spring Admission',
     fallDescription: 'Document submission from August to March',
     springDescription: 'Document submission from May to November',
-    
+
     // Team
-    teamTitle: 'Meet Our Team',
-    teamDescription: 'Experienced professionals who guide you to success',
-    workWithMentors: 'Work with Professional Mentors',
-    mentorSupport: 'Each mentor provides personalized guidance and support to ensure your success',
-    chooseMentor: 'Choose a Mentor',
     founderBio: 'Co-founder of Humo Agency. Accepted to over 30 universities worldwide and secured over $1 million in scholarships. Has helped 100+ students secure 90% to full-tuition scholarships and successfully prepare for their study abroad journeys. Actively participates in national and international conferences, forums, festivals, and Model United Nations programs.',
     founder: 'Founder'
   }

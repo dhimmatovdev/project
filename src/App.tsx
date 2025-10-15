@@ -8,7 +8,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
 import HowItWorks from './components/HowItWorks';
-import Testimonials from './components/Testimonials';
+import VisaSuccess from './components/VisaSuccess';
 import Mentors from './components/Mentors';
 import Gallery from './components/Gallery';
 import FAQ from './components/FAQ';
@@ -32,7 +32,7 @@ function App() {
           <About />
           <Services />
           <HowItWorks />
-          <Testimonials />
+          <VisaSuccess />
           <Mentors />
           <Gallery />
           <FAQ />
