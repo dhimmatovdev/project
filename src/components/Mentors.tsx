@@ -91,20 +91,6 @@ const Mentors: React.FC = () => {
           ))}
         </div>
 
-        {/* Founder Bio Section */}
-        <div className="max-w-4xl mx-auto mb-16">
-          <div className="bg-gradient-to-br from-orange-50 via-orange-100 to-orange-200 dark:from-orange-900/20 dark:via-orange-800/20 dark:to-orange-700/20 rounded-3xl p-8 shadow-xl">
-            <div className="text-center">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                {t('founder')}: Avazbek Ismoilov
-              </h3>
-              <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                {t('founderBio')}
-              </p>
-            </div>
-          </div>
-        </div>
-
         {/* Call to Action */}
         <div className="text-center">
           <div className="bg-gradient-to-br from-orange-400 via-orange-500 to-red-500 rounded-3xl p-8 text-white shadow-2xl">
