@@ -24,7 +24,7 @@ const translations = {
     contact: 'Aloqa',
     
     // Hero Section
-    heroTitle: 'Top Universities Are Within Your Reach — Achieve Your Dream with Humo Agency!',
+    heroTitle: 'Orzuingizga — Humo Agency bilan erishing!',
     heroSubtitle: 'Study at top US and European universities with full scholarship opportunities',
     getStarted: 'Boshlash',
     scholarshipOpportunities: '100% Scholarship Opportunities',
@@ -151,7 +151,7 @@ const translations = {
     contact: 'Contact',
     
     // Hero Section
-    heroTitle: 'Top Universities Are Within Your Reach 🇺🇸 — Achieve Your Dream with Humo Agency!',
+    heroTitle: 'Achieve Your Dream — with Humo Agency!',
     heroSubtitle: 'Full scholarship opportunities at top US universities',
     getStarted: 'Get Started',
     scholarshipOpportunities: '100% scholarship opportunities',
