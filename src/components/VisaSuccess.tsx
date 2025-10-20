@@ -27,35 +27,35 @@ const VisaSuccess: React.FC = () => {
     {
       id: '2',
       image: '/visa1.jpg',
-      country: currentLanguage.code === 'uz' ? 'AQSh' : 'USA',
-      flag: '🇺🇸',
-      program: 'MBA',
+      country: currentLanguage.code === 'uz' ? 'Latviya' : 'Latvia',
+      flag: '🇱🇻',
+      program: currentLanguage.code === 'uz' ? 'Magistratura - Biznes Menejment' : 'Master\'s - Business Management',
       duration: currentLanguage.code === 'uz' ? '2 yil' : '2 years',
-      location: currentLanguage.code === 'uz' ? 'Florida, AQSh' : 'Florida, USA',
+      location: currentLanguage.code === 'uz' ? 'Riga, Latviya' : 'Riga, Latvia',
       title: currentLanguage.code === 'uz' ? 'Birinchi urinishda viza!' : 'First attempt visa success!',
       description: currentLanguage.code === 'uz'
-        ? 'Talabamiz Amerika elchixonasida birinchi urinishda talabalar vizasini oldi! Florida shtatida MBA dasturi uchun 2 yillik o\'qish. Humo Agency har doim natijalar asosida gapiradi!'
-        : 'Our student obtained their student visa on the very first attempt at the American embassy! MBA in Florida for 2 years of study. Humo Agency always speaks based on results!',
+        ? 'Talabamiz Latviya elchixonasida birinchi urinishda talabalar vizasini oldi! Rigada joylashgan 2 yillik Biznes Menejment magistratura dasturi uchun. Erasmus+ dasturi orqali Yevropaning boshqa davlatlarida ham o\'qish imkoniyati!'
+        : 'Our student obtained their student visa on the very first attempt at the Latvian embassy! 2-year Master\'s program in Business Management located in Riga. Opportunity to study in other European countries through Erasmus+ program!',
       features: currentLanguage.code === 'uz'
-        ? ['Birinchi urinishda viza', 'MBA dasturi', 'Florida shtatida']
-        : ['First attempt success', 'MBA program', 'Florida state'],
+        ? ['Birinchi urinishda viza', 'Erasmus+ dasturi', 'Yevropa tajribasi']
+        : ['First attempt success', 'Erasmus+ program', 'European experience'],
       admissionStatus: currentLanguage.code === 'uz' ? 'Konsultatsiya uchun murojaat qiling' : 'Contact for consultation'
     },
     {
       id: '3',
       image: '/visa2.jpg',
-      country: currentLanguage.code === 'uz' ? 'Yevropa' : 'Europe',
-      flag: '🇪🇺',
-      program: currentLanguage.code === 'uz' ? 'Talaba vizasi' : 'Student Visa',
-      duration: currentLanguage.code === 'uz' ? 'Muvaffaqiyatli' : 'Successful',
-      location: currentLanguage.code === 'uz' ? 'Yevropa Ittifoqi' : 'European Union',
-      title: currentLanguage.code === 'uz' ? 'Yana bir muvaffaqiyat!' : 'Another success!',
+      country: currentLanguage.code === 'uz' ? 'AQSh' : 'USA',
+      flag: '🇺🇸',
+      program: 'MBA',
+      duration: currentLanguage.code === 'uz' ? '2 yil' : '2 years',
+      location: currentLanguage.code === 'uz' ? 'Florida, AQSh' : 'Florida, USA',
+      title: currentLanguage.code === 'uz' ? 'Amerika orzusi amalga oshdi!' : 'American dream came true!',
       description: currentLanguage.code === 'uz'
-        ? 'Talabamiz Yevropa davlatiga talabalar vizasini muvaffaqiyatli oldi! Professional tayyorgarlik va to\'g\'ri hujjat tayyorlash orqali muvaffaqiyatga erishdik.'
-        : 'Our student successfully obtained a student visa to a European country! We achieved success through professional preparation and proper document handling.',
+        ? 'Talabamiz Amerika elchixonasida talabalar vizasini muvaffaqiyatli oldi! Florida shtatida MBA dasturi uchun 2 yillik o\'qish. Professional tayyorgarlik va to\'g\'ri hujjat tayyorlash orqali muvaffaqiyatga erishdik.'
+        : 'Our student successfully obtained a student visa at the American embassy! MBA program in Florida for 2 years of study. We achieved success through professional preparation and proper document handling.',
       features: currentLanguage.code === 'uz'
-        ? ['Professional tayyorgarlik', 'To\'liq hujjat yordami', 'Viza muvaffaqiyati']
-        : ['Professional preparation', 'Full document support', 'Visa success'],
+        ? ['AQSh vizasi', 'MBA dasturi', 'Florida shtatida']
+        : ['USA visa', 'MBA program', 'Florida state'],
       admissionStatus: currentLanguage.code === 'uz' ? 'Keyingi muvaffaqiyat siz bo\'lishingiz mumkin!' : 'The next success could be YOU!'
     }
   ];
